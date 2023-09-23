@@ -73,12 +73,13 @@
 }
 
 .infoNoticia p{
-    width: 80%;
+    max-width: 80%;
     height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: justify;
+    overflow-y: hidden;
 }
 
 .verMas{
@@ -141,5 +142,44 @@
 
     .articles{
         display: none;
+    }
+}
+
+@media(max-width: 720px){
+
+    .noticias{
+        width: 100%;
+        height: fit-content;
+        overflow-y: scroll;
+        padding: 50px;
+    }
+
+    .noticiaPrincipal{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .imagenNoticia{
+        width: 200px;
+        height: 300px;
+    }
+
+    .infoNoticia{
+        width: 320px;
+        padding: 50px;
+        height: fit-content;
+    }
+ 
+    .infoNoticia h1{
+        width: 100%;
+        height: 10%;
+    }
+
+    .infoNoticia p{
+        max-width: 90%;
+        height: 80%;
+        text-align: justify;
+        overflow-y: scroll;
     }
 }
