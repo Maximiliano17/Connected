@@ -1,0 +1,145 @@
+ /*Styles*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*ContainerHome*/
+.containerHome{
+    width: 100%;
+    height: calc(100vh - 4rem);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background:#e6e0e0;
+}
+
+/*Noticias*/
+.noticias{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: none; 
+}
+
+.noticiaPrincipal{
+    width: 55%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    border-radius: 10px;
+    background: white; 
+    border:solid 1px #ccc;
+}
+
+.imagenNoticia{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: #654321;
+}
+
+.imagenNoticia img{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    object-fit: cover;
+}
+
+.infoNoticia{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoNoticia h1{
+    width: 100%;
+    height: 10%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: dashed 1px #ccc;
+}
+
+.infoNoticia p{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.verMas{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: dashed 1px #ccc;
+}
+
+.verMas button{
+    width: 100px;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background: #654321;
+    border-style:none;
+    border-radius: 100px;
+}
+
+/*Articulo*/
+.articles{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.articulo{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 15px;
+    background: white;
+    border:solid 1px #ccc;
+}
+
+@media(max-width: 1320px){
+    .containerHome{
+        width: 100%;
+        height: calc(100vh - 4rem);
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background:#e6e0e0;
+    }
+
+    .noticiaPrincipal{
+        width: 90%;
+        background: white;
+    }
+
+    .articles{
+        display: none;
+    }
+}
