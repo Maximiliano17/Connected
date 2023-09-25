@@ -1,0 +1,28 @@
+ /*Styles*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+} 
+/*Slider*/ 
+.carrusel{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.carousel img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+@media(max-width: 720px){
+     .sc-aXZVg{
+        display: none;
+     }
+}

@@ -5,12 +5,13 @@ import Home from './pages/Home.jsx'
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import Sistemas from './pages/Sistemas.jsx';
 
 // Routes
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (
+    element: ( 
         <App /> 
     ),
   },
@@ -20,7 +21,30 @@ const router = createBrowserRouter([
         <Home />
     ),
   },
-  
+  {
+    path: "/Sistemas",
+    element: (
+        <Sistemas />
+    ),
+  },
+  {
+    path: "/taller",
+    element: (
+        <Home />
+    ),
+  },
+  {
+    path: "/petzify",
+    element: (
+        <Home />
+    ),
+  },
+  {
+    path: "/medical",
+    element: (
+        <Home />
+    ),
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
