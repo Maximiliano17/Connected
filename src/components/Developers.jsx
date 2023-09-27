@@ -84,7 +84,7 @@ function Developers(){
               <p>
                 - Experiencia -
               </p>
-              <button className={styles.botonmodal_res} onClick={closeModal}>
+              <button onClick={closeModal}>
                 X
               </button>
               </div>
