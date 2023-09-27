@@ -78,8 +78,13 @@
     display: flex;  
     justify-content: center;
     align-items: center;
+    gap:1rem;
     background: white;
     border-style: none;
+}
+
+.redesDev label{
+    font-size: 15px;
 }
 
 .dataDev{
