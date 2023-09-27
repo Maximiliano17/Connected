@@ -7,24 +7,23 @@
 /*ContainerHome*/
 .containerHome{
     width: 100%; 
-    height: fit-content;
-    display: flex; 
+    height: fit-content; 
+    display: flex;  
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; 
     padding: 10px;
-    background:#e6e0e0;
+    background: linear-gradient(to bottom,#002858, #e6e0e0);
 } 
 
 /*Sobre Nosotros*/
 
 .sobreNosotros{
-    width: 90%;
+    width: 100%;
     height: 90vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: none; 
 }
 
 .info{
@@ -37,7 +36,7 @@
 }
 
 .info h1{
-    width: 100%;
+    width: 90%;
     height: 10%;
     display: flex;
     justify-content: center; 
@@ -48,7 +47,7 @@
 }
 
 .info p{
-    width: 100%;
+    width: 90%;
     height: fit-content;
     padding: 20px;
     display: flex;
@@ -78,6 +77,29 @@
     background: #002858;
     color:white;
     font-size: 20px;
+}
+
+.imagen{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro{
+   width: 80%;
+   height: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   backdrop-filter: blur(200px);
+}
+
+.cuadro img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
 }
 
 /*Noticias*/
@@ -158,7 +180,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
- }
+}
 
 .cardbutton button{
     width: 100px;
@@ -176,20 +198,6 @@
     color:#fd5308;
     border:solid 2px #fd5308;
     transition: 500ms;
-}
-
-.imagen{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.imagen img{
-    width: 70%;
-    height: 70%;
-    object-fit: cover;
 }
 
 @media(max-width: 1320px){
@@ -210,6 +218,35 @@
         width: 350px;
         height: 400px;
         margin: 20px;
+    }
+
+    .sobreNosotros{
+        flex-direction: column;
+    }
+
+    .info{
+        width: 100%;
+        height: 50%;
+    }
+
+    .info h1{
+        width: 70%;
+        font-size: 20px;
+        background: orangered;
+        color: white;
+    }
+
+    .info p{
+        width: 70%;
+    }
+
+    .imagen{
+        width: 100%;
+        height: 50%;
+    }
+
+    .cuadro{
+        width: 400px;
     }
 }
 

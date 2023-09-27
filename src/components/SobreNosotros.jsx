@@ -14,7 +14,9 @@ function SobreNosotros(){
             </p>
           </section>
           <div className={styles.imagen}>
+           <section className={styles.cuadro}>
             <img src={noticia_imagenes} alt="Foto" />
+           </section>
           </div>
          </div>
         </>
