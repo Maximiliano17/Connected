@@ -13,7 +13,7 @@
     align-items: center;
     flex-direction: column; 
     padding: 10px;
-    background: linear-gradient(to bottom,#002858, #e6e0e0);
+    background: linear-gradient(to bottom,#002858, #e6e0e0,#e6e0e0, #002858);
 } 
 
 /*Sobre Nosotros*/
@@ -231,8 +231,9 @@
 
     .info h1{
         width: 70%;
+        padding: 20px;
         font-size: 20px;
-        background: orangered;
+        background: #fd5308;
         color: white;
     }
 
@@ -247,6 +248,18 @@
 
     .cuadro{
         width: 400px;
+    }
+}
+
+@media(max-width: 720px){
+
+    .info h1{
+        width: 90%;
+    }
+
+    .info p{
+        padding-top: 25px;
+        width: 90%;
     }
 }
 
