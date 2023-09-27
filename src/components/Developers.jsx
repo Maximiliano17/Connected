@@ -3,8 +3,36 @@ import styles from "../modules/Developers.module.css"
 //Imagenes
 import noticia_imagenes from "../assets/noticias/noticia_principal.jpg"
 import perfilMaxi from "../assets/img/fotoPerfil.jpeg"
+//Modal
+import Modal from "react-modal"
+//React
+import { useState } from "react"
+
+const customStyles = {
+    content: {
+      top: "50%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+    },
+  };
 
 function Developers(){
+
+    const [modalIsOpen, setIsOpen] = useState(false);
+
+    function openModal() {
+      setIsOpen(true);
+    }
+  
+    function afterOpenModal() {}
+  
+    function closeModal() {
+      setIsOpen(false);
+    }
+
     return(
         <>
          <div className={styles.developers}>
@@ -44,15 +72,58 @@ function Developers(){
                   </div>
                 </div>
                 <div className={styles.dataDev}>
-                    <section className={styles.carInfo}>
-                     Experiencia
-                    </section>
-                    <section className={styles.carInfo}>
+                <Modal
+                    className={styles.modal}
+                    isOpen={modalIsOpen}
+                    onAfterOpen={afterOpenModal}
+                    onRequestClose={closeModal}
+                    style={customStyles}
+                    contentLabel="Example Modal"
+                    >
+              <div className={styles.barraSup}>
+              <p>
+                - Experiencia -
+              </p>
+              <button className={styles.botonmodal_res} onClick={closeModal}>
+                X
+              </button>
+              </div>
+              <div className={styles.contenidoModal}>
+                <article className={styles.cardModal}>
+                  <h2> - Card - </h2>
+                  <img src={noticia_imagenes} alt="Foto" />
+                  <p>
+                    Noticia re importante ultra facherisima re importante encima la rubia esta re linda.  Noticia re importante ultra facherisima re importante encima la rubia esta re linda.
+                  </p>
+                  <button>Ver mas</button>
+                </article>
+                <article className={styles.cardModal}>
+                  <h2> - Card - </h2>
+                  <img src={noticia_imagenes} alt="Foto" />
+                  <p>
+                    Noticia re importante ultra facherisima re importante encima la rubia esta re linda.  Noticia re importante ultra facherisima re importante encima la rubia esta re linda.
+                  </p>
+                  <button>Ver mas</button>
+                </article>
+                <article className={styles.cardModal}>
+                  <h2> - Card - </h2>
+                  <img src={noticia_imagenes} alt="Foto" />
+                  <p>
+                    Noticia re importante ultra facherisima re importante encima la rubia esta re linda.  Noticia re importante ultra facherisima re importante encima la rubia esta re linda.
+                  </p>
+                  <button>Ver mas</button>
+                </article>
+              </div>
+                </Modal>  
+                    <button onClick={openModal} className={styles.carInfo}> 
+                     Experiencia 
+                    </button>
+                    <button className={styles.carInfo}>
                      Projectos
-                    </section>
-                    <section className={styles.carInfo}>
+                    </button>
+                    <button className={styles.carInfo}>
                      Recomendaciones
-                    </section>
+                    </button>
                 </div>
             </section>
            {/*

@@ -10,7 +10,7 @@
     width: 100%; 
     height: fit-content; 
     display: flex;  
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     flex-direction: column; 
 }  
@@ -83,6 +83,7 @@
     border-style: none;
     text-decoration: none;
     transition: 500ms;
+    outline: none;
 }
 
 .redesDev a:hover{
@@ -129,14 +130,149 @@
     background: white;
     box-shadow: 0px 0px 5px 1px black;
     transition: 500ms;
+    border-style: none;
+    outline: none;
+    font-size: 20px;
 }
 
 .carInfo:hover{
-    font-size: 20px; 
+    font-size: 30px; 
     color:white;
     background: #fd5308; 
     border-style: none;
     transition: 500ms;
+}
+
+/*Modal*/
+
+.modal{
+    width: 90%;
+    height: 90%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background: white;
+    border:solid 2px #ccc;
+    border-radius: 10px;
+}
+
+.barraSup{
+    width: 100%;
+    height: 10%;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #ccc;
+}
+
+.barraSup p{
+    width: 20%;
+    height: 100%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    color:#746d6d;
+    transition: 500ms;
+} 
+
+.barraSup p:hover{
+    color:white;
+    font-size: 20px;
+    background: #fd5308;
+    transition: 500ms;
+    border-radius:  10px 0px 0px 0px;
+}
+
+.barraSup button{
+    width: 50px;
+    height: 100%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border-style: none;
+    transition: 500ms;
+}
+
+.barraSup button:hover{
+    color: white;
+    background: #fd5308;
+    font-size: 20px;
+    transition: 500ms;
+    border-radius:  0px 10px 0px 0px;
+}
+
+.contenidoModal{
+    width: 100%;
+    height: 90%;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    background: #002858;
+    border-radius:  0px 0px 10px 10px;
+}
+
+.cardModal{
+    width: 300px;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    box-shadow: 0px 0px 5px 1px white;
+    border-radius: 10px;
+}
+
+.cardModal h2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardModal p{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #746d6d;
+}
+
+.cardModal button{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-style: none;
+    font-size: 17px;
+    transition: 500ms;
+    border-top: solid 1px #ccc;
+    border-radius:  0px 0px 10px 10px;
+}
+
+.cardModal button:hover{
+    color:white;
+    border-radius:  0px 0px 10px 10px;
+    background: #fd5308;
+    font-size: 20px;
+    transition: 500ms;
+}
+
+.cardModal img{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
 }
 
 @media(max-width: 1320px){
