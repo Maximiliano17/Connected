@@ -13,7 +13,18 @@
     justify-content: space-between; 
     align-items: center;
     flex-direction: column; 
+    padding-top: 10px;
 }  
+
+.tituloDev{
+    width: 30%;
+    height: 2.5rem;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background: #002858;
+    color:white;
+}
 
 .dev{
     width: 80%;
@@ -340,7 +351,13 @@
 }
 
 @media(max-width: 720px){
-.modal{
-  width: 320px;
-}
+
+    .tituloDev{
+        width: 80%;
+        background: #fd5308;
+    }
+
+    .modal{
+    width: 320px;
+    }
 }
