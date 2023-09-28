@@ -89,32 +89,32 @@ function Developers(){
               <button onClick={closeModal}>
                 X
               </button>
-              </div>
+              </div> 
               <div className={styles.contenidoModal}>
-                <article className={styles.cardModal}>
-                  <h2> - Card - </h2>
-                  <img src={noticia_imagenes} alt="Foto" />
-                  <p>
-                    Noticia re importante ultra facherisima re importante encima la rubia esta re linda.  Noticia re importante ultra facherisima re importante encima la rubia esta re linda.
-                  </p>
-                  <button>Ver mas</button>
+
+               <section className={styles.imagenExperiencia}>
+                <img src={noticia_imagenes} alt="Proyecto" />
+               </section>
+               <section className={styles.experiencia}>
+                <article className={styles.cardExperiencia}>
+                  <p>Programador Front End</p>
+                  <p>Escuela De Educación Secundaria Técnica N°5 Merlo Libertad</p>
+                  <h2>Desarrollo de software controlador de stock.</h2>
+                  <span>Referencia: Jefe de la especialidad informática  Walter Carnero 11-6099-4485</span>
                 </article>
-                <article className={styles.cardModal}>
-                  <h2> - Card - </h2>
-                  <img src={noticia_imagenes} alt="Foto" />
-                  <p>
-                    Noticia re importante ultra facherisima re importante encima la rubia esta re linda.  Noticia re importante ultra facherisima re importante encima la rubia esta re linda.
-                  </p>
-                  <button>Ver mas</button>
+                <article className={styles.cardExperiencia}>
+                  <p>Programador Full Stack</p>
+                  <p>Escuela De Educación Secundaria Técnica N°5 Merlo Libertad</p>
+                  <h2>Desarrollo de página institucional.</h2>
+                  <span>Referencia: Jefe de la especialidad informática  Walter Carnero 11-6099-4485</span>
                 </article>
-                <article className={styles.cardModal}>
-                  <h2> - Card - </h2>
-                  <img src={noticia_imagenes} alt="Foto" />
-                  <p>
-                    Noticia re importante ultra facherisima re importante encima la rubia esta re linda.  Noticia re importante ultra facherisima re importante encima la rubia esta re linda.
-                  </p>
-                  <button>Ver mas</button>
+                <article className={styles.cardExperiencia}>
+                  <p>Programador Front End</p>
+                  <p>Empresa de instalaciones eléctricas</p>
+                  <h2>Desarrollo de página informativa. </h2>
+                  <span>Referencia: Jefe de la especialidad informática  Walter Carnero 11-6099-4485</span>
                 </article>
+               </section>
               </div>
               
                 </Modal>  
@@ -166,51 +166,7 @@ function Developers(){
                   </div>
                 </div>
                 <div className={styles.dataDev}>
-                <Modal
-                    className={styles.modal}
-                    isOpen={modalIsOpen}
-                    onAfterOpen={afterOpenModal}
-                    onRequestClose={closeModal}
-                    style={customStyles}
-                    contentLabel="Example Modal"
-                    >
-              <div className={styles.barraSup}>
-              <p>
-                - Experiencia -
-              </p>
-              <button onClick={closeModal}>
-                X
-              </button>
-              </div>
-              <div className={styles.contenidoModal}>
-                <article className={styles.cardModal}>
-                  <h2> - Card - </h2>
-                  <img src={noticia_imagenes} alt="Foto" />
-                  <p>
-                    Noticia re importante ultra facherisima re importante encima la rubia esta re linda.  Noticia re importante ultra facherisima re importante encima la rubia esta re linda.
-                  </p>
-                  <button>Ver mas</button>
-                </article>
-                <article className={styles.cardModal}>
-                  <h2> - Card - </h2>
-                  <img src={noticia_imagenes} alt="Foto" />
-                  <p>
-                    Noticia re importante ultra facherisima re importante encima la rubia esta re linda.  Noticia re importante ultra facherisima re importante encima la rubia esta re linda.
-                  </p>
-                  <button>Ver mas</button>
-                </article>
-                <article className={styles.cardModal}>
-                  <h2> - Card - </h2>
-                  <img src={noticia_imagenes} alt="Foto" />
-                  <p>
-                    Noticia re importante ultra facherisima re importante encima la rubia esta re linda.  Noticia re importante ultra facherisima re importante encima la rubia esta re linda.
-                  </p>
-                  <button>Ver mas</button>
-                </article>
-              </div>
-              
-                </Modal>  
-                    <button onClick={openModal} className={styles.carInfo}> 
+                    <button className={styles.carInfo}> 
                      Experiencia 
                     </button>
                     <button className={styles.carInfo}>
