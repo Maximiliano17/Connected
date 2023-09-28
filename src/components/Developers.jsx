@@ -8,7 +8,7 @@ import perfilJuan from "../assets/img/juan.jpg"
 import Modal from "react-modal"
 //React
 import { useState } from "react"
-
+ 
 const customStyles = {
     content: {
       top: "50%",

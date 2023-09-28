@@ -88,7 +88,7 @@
 }
 
 .cuadro{
-   width: 80%;
+   width: 90%;
    height: 80%;
    display: flex;
    justify-content: center;
@@ -201,6 +201,11 @@
 }
 
 @media(max-width: 1320px){
+
+    .cuadro{
+        width: 90%;
+        height: 90%;
+    }
 
     .informacion{
         width: 100%;

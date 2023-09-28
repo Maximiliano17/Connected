@@ -1,7 +1,7 @@
 //Styles
 import styles from "../modules/Home.module.css"
 //Imagenes
-import noticia_imagenes from "../assets/noticias/noticia_principal.jpg"
+import equipo from "../assets/noticias/equipo.jpeg"
 
 function SobreNosotros(){
     return(
@@ -14,8 +14,8 @@ function SobreNosotros(){
             </p>
           </section>
           <div className={styles.imagen}>
-           <section className={styles.cuadro}>
-            <img src={noticia_imagenes} alt="Foto" />
+           <section className={styles.cuadro}> 
+            <img src={equipo} alt="Foto" />
            </section>
           </div>
          </div>
