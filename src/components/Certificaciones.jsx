@@ -2,7 +2,7 @@
 import styles from "../modules/Certificaciones.module.css"
 
 function Certificaciones(){
-    return(  
+    return(   
         <>
         <div className={styles.certificaciones}> 
          <h1>Educacion</h1>   

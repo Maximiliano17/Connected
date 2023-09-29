@@ -422,29 +422,6 @@
     object-fit: cover;
 }
 
-/*Scroll Nav*/
-
-/* Anchura de la barra de desplazamiento */
-::-webkit-scrollbar {
-    width: 12px;
-  }
-  
-  /* Fondo de la barra de desplazamiento */
-  ::-webkit-scrollbar-track {
-    background-color: #f1f1f1;
-  }
-  
-  /* Color de la barra de desplazamiento */
-  ::-webkit-scrollbar-thumb {
-    background-color: #888;
-  }
-  
-  /* Estilo al pasar el ratón sobre la barra de desplazamiento */
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
-  }
-  
-
 @media(max-width: 1320px){
 
     .cardDev{

@@ -1,4 +1,5 @@
 //Styles
+import stylesCer from "../modules/Certificaciones.module.css"
 import styles from "../modules/Developers.module.css"
 //Imagenes
 import noticia_imagenes from "../assets/noticias/noticia_principal.jpg"
@@ -8,6 +9,7 @@ import sobreMiMaxi2 from "../assets/img/sobreMiMaxi2.jpeg"
 import sobreMiMaxi3 from "../assets/img/sobreMiMaxi3.jpeg"
 import sobreMiMaxi4 from "../assets/img/sobreMiMaxi4.jpeg"
 import perfilJuan from "../assets/img/juan.jpg"
+//Tecnologias
 import html from "../assets/icons/html.png"
 import css from "../assets/icons/css-3.png"
 import js from "../assets/icons/js.png"
@@ -17,6 +19,8 @@ import php from "../assets/icons/php.png"
 import mysql from "../assets/icons/mysql.png"
 import typescript from "../assets/icons/typescript.png"
 import docker from "../assets/icons/docker.png"
+import mongo from "../assets/icons/mongo.png"
+import ex from "../assets/icons/express.png"
 //Modal
 import Modal from "react-modal"
 //React
@@ -35,6 +39,47 @@ const customStyles = {
   };
 
 function Developers(){
+    //Juan Modal
+     //Modal Experiencia
+     const [modalIsOpenjuan, setIsOpenjuan] = useState(false);
+
+     function openModaljuan() {
+       setIsOpenjuan(true);
+     }
+   
+     function afterOpenModaljuan() {}
+   
+     function closeModaljuan() {
+       setIsOpenjuan(false);
+     }
+
+       //Modal Sobre Mi
+       const [modalIsOpenjuan2, setIsOpenjuan2] = useState(false);
+
+       function openModaljuan2() {
+         setIsOpenjuan2(true);
+       }
+     
+       function afterOpenModaljuan2() {}
+     
+       function closeModaljuan2() {
+         setIsOpenjuan2(false);
+       }
+      
+       //Modal Certificados
+       const [modalIsOpenjuan3, setIsOpenjuan3] = useState(false);
+
+       function openModaljuan3() {
+         setIsOpenjuan3(true);
+       }
+     
+       function afterOpenModaljuan3() {}
+     
+       function closeModaljuan3() {
+         setIsOpenjuan3(false);
+       }
+ 
+    //Maxi Modal
     //Modal Experiencia
     const [modalIsOpen, setIsOpen] = useState(false);
 
@@ -88,7 +133,7 @@ function Developers(){
                         <p>
                           Dos Santos Maximiliano
                         </p>
-                    <a target="_blanck" href="https://github.com/Maximiliano17">
+                    <a target="_blanck" href="https://www.linkedin.com/in/maximilianodossantos/">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
                     <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
                     </svg>
@@ -96,7 +141,7 @@ function Developers(){
                       Linkedin
                      </label>
                     </a> 
-                    <a target="_blanck" href="https://www.linkedin.com/in/maximilianodossantos/">
+                    <a target="_blanck" href="https://github.com/Maximiliano17">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
                     </svg>
@@ -317,14 +362,183 @@ function Developers(){
                     </a>
                   </div>
                 </div>
+                  {/*Modal Certificados Juan*/} 
+                  <Modal
+                    className={styles.modal}
+                    isOpen={modalIsOpenjuan3}
+                    onAfterOpen={afterOpenModaljuan3}
+                    onRequestClose={closeModaljuan3}
+                    style={customStyles}
+                    contentLabel="Example Modal"
+                    >
+                   <div className={styles.barraSup}>
+                      <p>
+                        - Certificados -
+                      </p>
+                      <button onClick={closeModaljuan3}>
+                        X
+                      </button>
+                   </div> 
+                   <div className={styles.contenidoModal3}> 
+                    <div className={stylesCer.certificaciones}> 
+                      <h1>Educacion</h1>   
+                      <section className={stylesCer.certificado}>
+                      <article className={stylesCer.cardCertificado}>
+                          <h2>Feria regional de educacion arte ,ciencia y tecnologia</h2>
+                          <span>Representaria a la region 8 en la instancia provincial.</span>
+                          <button>Ver</button>
+                        </article>
+                        <article className={stylesCer.cardCertificado}>
+                          <h2>Técnico en informática personal y profesional</h2>
+                          <p>Escuela De Educación Secundaria Técnica  N°5 Merlo Libertad</p>
+                          <span>Cursando: el último año.</span>
+                          <button>Ver</button>
+                        </article>
+                        <article className={stylesCer.cardCertificado}>
+                          <h2>Certificación  obtenida: Diploma del curso HTML5 y CSS3</h2>
+                          <p>Empresa: OpenBootcamp.</p>
+                          <span>Fecha de obtención: 22/12/2022.</span>
+                          <button>Ver</button>
+                        </article>
+                        <article className={stylesCer.cardCertificado}>
+                          <h2>Certificación  obtenida:Introducción a la programación</h2>
+                          <p>Empresa: OpenBootcamp.</p>
+                          <span>Fecha de obtención: 22/3/2023. </span>
+                          <button>Ver</button>
+                        </article>
+                        <article className={stylesCer.cardCertificado}>
+                          <h2>Certificación  obtenida: SQL</h2>
+                          <p>Empresa: OpenBootcamp.</p>
+                          <span>Fecha de obtención: 27/3/2023.</span>
+                          <button>Ver</button>
+                        </article>
+                    </section>
+                    </div>
+                   </div>
+                  </Modal>
+                  {/*Modal Experiencia Juan*/} 
+                  <Modal
+                    className={styles.modal}
+                    isOpen={modalIsOpenjuan2}
+                    onAfterOpen={afterOpenModaljuan2}
+                    onRequestClose={closeModaljuan2}
+                    style={customStyles}
+                    contentLabel="Example Modal"
+                    >
+                   <div className={styles.barraSup}>
+                      <p>
+                        - Experiencia -
+                      </p>
+                      <button onClick={closeModaljuan2}>
+                        X
+                      </button>
+                   </div> 
+                   <div className={styles.contenidoModal2}> 
+                     Contenido
+                   </div>
+                  </Modal>
+                  {/*Modal Sobre Mi Juan*/} 
+                  <Modal
+                    className={styles.modal}
+                    isOpen={modalIsOpenjuan}
+                    onAfterOpen={afterOpenModaljuan}
+                    onRequestClose={closeModaljuan}
+                    style={customStyles}
+                    contentLabel="Example Modal"
+                    >
+                   <div className={styles.barraSup}>
+                      <p>
+                        - Sobre Mi -
+                      </p>
+                      <button onClick={closeModaljuan}>
+                        X
+                      </button>
+                   </div> 
+                   <div className={styles.contenidoModal2}>
+                     <section className={styles.imagenesProyecto}>
+                      <article className={styles.imagen}>
+                        <img src={perfilJuan} alt="Foto Sobre Mi" />
+                      </article>
+                      <article className={styles.imagen}>
+                       <img src={sobreMiMaxi} alt="Foto Sobre Mi" />
+                      </article>
+                      <article className={styles.imagen}>
+                       <img src={sobreMiMaxi2} alt="Foto Sobre Mi" />
+                      </article>
+                      <article className={styles.imagen}>
+                       <img src={sobreMiMaxi3} alt="Foto Sobre Mi" />
+                      </article>
+                      <article className={styles.imagen}>
+                       <img src={sobreMiMaxi4} alt="Foto Sobre Mi" />
+                      </article>
+                     </section>
+                     <section className={styles.infoProyecto}>
+                       <h2>Villalba Juan Pablo</h2>
+                       <span>Desarrollador Full-Stack</span>
+                       <p>
+                        ¡Hola! Mi nombre es Juan Pablo Villalba tengo actualmente 18 años, me gusta crear cosas que viven en Internet. Soy un desarrollador apasionado, con fuertes habilidades administrativas y de responsabilidad, buena atención al detalle y la capacidad de escribir código eficiente.
+                       </p>
+                     <section className={styles.stack}>
+                       <article className={styles.articulo}>
+                         <img src={html} alt="Html" />
+                         <label className={styles.stacklabel}>Html 5</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={css} alt="Css" />
+                         <label className={styles.stacklabel}>Css 3</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={js} alt="JavaScript" />
+                         <label className={styles.stacklabel}>JavaScript</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={react} alt="React" />
+                         <label className={styles.stacklabel}>React.Js</label>
+                       </article>
+                         <article className={styles.articulo}>
+                         <img src={react} alt="React Native" />
+                         <label className={styles.stacklabel}>Native</label>
+                       </article>
+                         <article className={styles.articulo}>
+                         <img src={node} alt="Node" />
+                         <label className={styles.stacklabel}>Node.Js</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={php} alt="Php" />
+                         <label className={styles.stacklabel}>PHP</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={mysql} alt="Mysql" />
+                         <label className={styles.stacklabel}>Mysql</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={typescript} alt="Typescript" />
+                         <label className={styles.stacklabel}>TypeScript</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={docker} alt="Docker" />
+                         <label className={styles.stacklabel}>Docker</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={mongo} alt="MongoDB" />
+                         <label className={styles.stacklabel}>Mongo db</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={ex} alt="Express" />
+                         <label className={styles.stacklabel}>Express</label>
+                       </article>
+                     </section>
+                     </section>
+                   </div>
+                  </Modal>
                 <div className={styles.dataDev}>
-                    <button className={styles.carInfo}> 
+                    <button onClick={openModaljuan2} className={styles.carInfo}> 
                      Experiencia 
                     </button>
-                    <button className={styles.carInfo}>
-                     Projectos
+                    <button onClick={openModaljuan} className={styles.carInfo}>
+                     Sobre Mi
                     </button>
-                    <button className={styles.carInfo}>
+                    <button onClick={openModaljuan3}  className={styles.carInfo}>
                      Certificaciones
                     </button>
                 </div>
