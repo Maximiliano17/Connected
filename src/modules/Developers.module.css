@@ -156,6 +156,7 @@
     transition: 500ms;
 }
 
+
 /*Modal*/
 
 .modal{
@@ -217,6 +218,132 @@
     border-radius:  0px 10px 0px 0px;
 }
 
+/*Modal 2*/
+.contenidoModal2{
+    width: 100%;
+    height: 90%;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    border-radius:  0px 0px 10px 10px;
+}
+
+.imagenesProyecto{
+    width: 50%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 90%);
+    grid-template-rows: 450px 450px 450px 450px 450px;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    background: #002858;
+    place-items: center;
+}
+
+.imagen{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.infoProyecto{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: self-start;
+    flex-direction: column;
+    background: white;
+}
+
+.infoProyecto h2{
+    width: fit-content;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding-left: 15px;
+    border-bottom: 1px solid #ccc;
+    color: #323B4C;
+}
+
+.infoProyecto span{
+    width: fit-content;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    color: #323B4C;
+}
+
+.infoProyecto p{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    color: #323B4C;
+}
+
+.stack{
+    width: 100%;
+    height: 40%;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: 120px 120px 120px;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    place-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap:1rem;
+}
+
+.articulo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 1px #ccc;
+    border-radius: 10px;
+    background: white;
+}
+
+.stacklabel{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #002858;
+}
+
+.articulo img{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Modal 1*/
 .contenidoModal{
     width: 100%;
     height: 90%;
@@ -361,6 +488,33 @@
 
     .cardExperiencia{
         width: 90%;
+    }
+
+    /*ModalProyectRes*/
+    
+    .contenidoModal2{
+        flex-direction: column;
+    }
+
+    .imagenesProyecto{
+        display: none;
+    }
+ 
+    .infoProyecto{
+        width: 90%;
+    }
+
+    .stack{
+        display: grid;
+        grid-template-columns: repeat(2, 100px);
+        grid-template-rows: 120px 120px 120px;
+        justify-content: center;
+        align-items: center;
+        overflow-y: scroll;
+        place-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        gap:1rem;
     }
 }
 

@@ -3,11 +3,24 @@ import styles from "../modules/Developers.module.css"
 //Imagenes
 import noticia_imagenes from "../assets/noticias/noticia_principal.jpg"
 import perfilMaxi from "../assets/img/fotoPerfil.jpeg"
+import sobreMiMaxi from "../assets/img/sobreMiMaxi.jpeg"
+import sobreMiMaxi2 from "../assets/img/sobreMiMaxi2.jpeg"
+import sobreMiMaxi3 from "../assets/img/sobreMiMaxi3.jpeg"
+import sobreMiMaxi4 from "../assets/img/sobreMiMaxi4.jpeg"
 import perfilJuan from "../assets/img/juan.jpg"
+import html from "../assets/icons/html.png"
+import css from "../assets/icons/css-3.png"
+import js from "../assets/icons/js.png"
+import react from "../assets/icons/React.svg.png"
+import node from "../assets/icons/node.png"
+import php from "../assets/icons/php.png"
+import mysql from "../assets/icons/mysql.png"
+import typescript from "../assets/icons/typescript.png"
+import docker from "../assets/icons/docker.png"
 //Modal
 import Modal from "react-modal"
 //React
-import { useState } from "react"
+import { useState } from "react" 
  
 const customStyles = {
     content: {
@@ -21,7 +34,7 @@ const customStyles = {
   };
 
 function Developers(){
-
+    //Modal Experiencia
     const [modalIsOpen, setIsOpen] = useState(false);
 
     function openModal() {
@@ -32,6 +45,19 @@ function Developers(){
   
     function closeModal() {
       setIsOpen(false);
+    }
+
+    //Modal Proyectos
+    const [modalIsOpen2, setIsOpen2] = useState(false);
+
+    function openModal2() {
+      setIsOpen2(true);
+    }
+  
+    function afterOpenModal2() {}
+  
+    function closeModal2() {
+      setIsOpen2(false);
     }
 
     return(
@@ -74,6 +100,95 @@ function Developers(){
                   </div>
                 </div>
                 <div className={styles.dataDev}>
+                {/*Modal Sobre Mi*/} 
+                <Modal
+                    className={styles.modal}
+                    isOpen={modalIsOpen2}
+                    onAfterOpen={afterOpenModal2}
+                    onRequestClose={closeModal2}
+                    style={customStyles}
+                    contentLabel="Example Modal"
+                    >
+                   <div className={styles.barraSup}>
+                      <p>
+                        - Sobre Mi -
+                      </p>
+                      <button onClick={closeModal2}>
+                        X
+                      </button>
+                   </div> 
+                   <div className={styles.contenidoModal2}>
+                     <section className={styles.imagenesProyecto}>
+                      <article className={styles.imagen}>
+                        <img src={perfilMaxi} alt="Foto Sobre Mi" />
+                      </article>
+                      <article className={styles.imagen}>
+                       <img src={sobreMiMaxi} alt="Foto Sobre Mi" />
+                      </article>
+                      <article className={styles.imagen}>
+                       <img src={sobreMiMaxi2} alt="Foto Sobre Mi" />
+                      </article>
+                      <article className={styles.imagen}>
+                       <img src={sobreMiMaxi3} alt="Foto Sobre Mi" />
+                      </article>
+                      <article className={styles.imagen}>
+                       <img src={sobreMiMaxi4} alt="Foto Sobre Mi" />
+                      </article>
+                     </section>
+                     <section className={styles.infoProyecto}>
+                       <h2>Dos santos Maximiliano</h2>
+                       <span>Desarrollador Full-Stack</span>
+                       <p>Desarrollador web enfocado en el área del Front end, desde siempre he buscado mejorar mi capacidad tanto de programación como de trabajo. Apasionado de nuevas oportunidades disfruto de trabajar solo y en grupo si lo amerita la situación.</p>
+                     <section className={styles.stack}>
+                       <article className={styles.articulo}>
+                         <img src={html} alt="Html" />
+                         <label className={styles.stacklabel}>Html 5</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={css} alt="Html" />
+                         <label className={styles.stacklabel}>Css 3</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={js} alt="Html" />
+                         <label className={styles.stacklabel}>JavaScript</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={react} alt="Html" />
+                         <label className={styles.stacklabel}>React.Js</label>
+                       </article>
+                       {
+                        /*
+                         <article className={styles.articulo}>
+                         <img src={react} alt="Html" />
+                         <label className={styles.stacklabel}>React Native</label>
+                       </article>
+                       */
+                       }
+                       <article className={styles.articulo}>
+                         <img src={node} alt="Html" />
+                         <label className={styles.stacklabel}>Node.Js</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={php} alt="Html" />
+                         <label className={styles.stacklabel}>Php</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={mysql} alt="Html" />
+                         <label className={styles.stacklabel}>Mysql</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={typescript} alt="Html" />
+                         <label className={styles.stacklabel}>TypeScript</label>
+                       </article>
+                       <article className={styles.articulo}>
+                         <img src={docker} alt="Html" />
+                         <label className={styles.stacklabel}>Docker</label>
+                       </article>
+                     </section>
+                     </section>
+                   </div>
+                 </Modal>     
+                 {/*Modal Experiencia*/} 
                 <Modal
                     className={styles.modal}
                     isOpen={modalIsOpen}
@@ -121,8 +236,8 @@ function Developers(){
                     <button onClick={openModal} className={styles.carInfo}> 
                      Experiencia 
                     </button>
-                    <button className={styles.carInfo}>
-                     Projectos
+                    <button  onClick={openModal2} className={styles.carInfo}>
+                     Sobre Mi
                     </button>
                     <button className={styles.carInfo}>
                      Certificaciones
@@ -155,12 +270,12 @@ function Developers(){
                       Git Hub
                      </label>
                     </a>
-                    <a target="_blanck" href="https://github.com/Maximiliano17">
+                    <a target="_blanck" href="https://portfolio-juanpablo.vercel.app/">
                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-file-earmark-person-fill" viewBox="0 0 16 16">
                          <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755z"/>
                        </svg>
                       <label>
-                       Curriculum
+                       Portafolio
                       </label>
                     </a>
                   </div>
