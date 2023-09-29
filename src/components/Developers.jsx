@@ -21,7 +21,8 @@ import docker from "../assets/icons/docker.png"
 import Modal from "react-modal"
 //React
 import { useState } from "react" 
- 
+//Components
+import Certificaciones from "../components/Certificaciones"
 const customStyles = {
     content: {
       top: "50%",
@@ -59,6 +60,20 @@ function Developers(){
     function closeModal2() {
       setIsOpen2(false);
     }
+
+    //Modal Certificado
+    const [modalIsOpen3, setIsOpen3] = useState(false);
+
+    function openModal3() {
+      setIsOpen3(true);
+    }
+  
+    function afterOpenModal3() {}
+  
+    function closeModal3() {
+      setIsOpen3(false);
+    }
+
 
     return(
         <>
@@ -100,6 +115,28 @@ function Developers(){
                   </div>
                 </div>
                 <div className={styles.dataDev}>
+                 {/*Modal Certificado*/} 
+                <Modal
+                    className={styles.modal}
+                    isOpen={modalIsOpen3}
+                    onAfterOpen={afterOpenModal3}
+                    onRequestClose={closeModal3}
+                    style={customStyles}
+                    contentLabel="Example Modal"
+                    >
+
+                  <div className={styles.barraSup}>
+                      <p>
+                        - Certificaciones -
+                      </p>
+                      <button onClick={closeModal3}>
+                        X
+                      </button>
+                   </div>
+                   <div className={styles.contenidoModal3}>
+                    <Certificaciones />
+                   </div>
+                 </Modal>
                 {/*Modal Sobre Mi*/} 
                 <Modal
                     className={styles.modal}
@@ -239,7 +276,7 @@ function Developers(){
                     <button  onClick={openModal2} className={styles.carInfo}>
                      Sobre Mi
                     </button>
-                    <button className={styles.carInfo}>
+                    <button onClick={openModal3}  className={styles.carInfo}>
                      Certificaciones
                     </button>
                 </div>

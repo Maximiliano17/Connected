@@ -156,7 +156,6 @@
     transition: 500ms;
 }
 
-
 /*Modal*/
 
 .modal{
@@ -218,6 +217,17 @@
     border-radius:  0px 10px 0px 0px;
 }
 
+/*Modal 3*/
+.contenidoModal3{
+    width: 100%;
+    height: 90%;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    border-radius:  0px 0px 10px 10px;
+}
+
 /*Modal 2*/
 .contenidoModal2{
     width: 100%;
@@ -238,8 +248,8 @@
     justify-content: center;
     align-items: center;
     overflow-y: scroll;
-    background: #002858;
     place-items: center;
+    background: #002858;
 }
 
 .imagen{
@@ -411,6 +421,29 @@
     align-items: center;
     object-fit: cover;
 }
+
+/*Scroll Nav*/
+
+/* Anchura de la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Fondo de la barra de desplazamiento */
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  /* Color de la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+  
+  /* Estilo al pasar el ratón sobre la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
 
 @media(max-width: 1320px){
 
