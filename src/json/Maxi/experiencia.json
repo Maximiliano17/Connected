@@ -1,0 +1,27 @@
+[
+    { 
+      "id": "Experiencia",
+      "owner": "Maxi",
+      "cargo": "Programador Front End.",
+      "empresa": "Escuela De Educación Secundaria Técnica N°5 Merlo Libertad.",
+      "projecto": "Desarrollo de software controlador de stock.",
+      "referencia":"Jefe de la especialidad informática Walter Carnero 11-6099-4485"
+    },
+    { 
+        "id": "Experiencia",
+        "owner": "Maxi",
+        "cargo": "Programador Full Stack.",
+        "empresa": "Escuela De Educación Secundaria Técnica N°5 Merlo Libertad.",
+        "projecto": "Desarrollo de página institucional.",
+        "referencia":"Jefe de la especialidad informática Walter Carnero 11-6099-4485"
+      },
+      { 
+        "id": "Experiencia",
+        "owner": "Maxi",
+        "cargo": "Programador Front End.",
+        "empresa": "Empresa de instalaciones eléctricas.",
+        "projecto": "Desarrollo de página informativa.",
+        "referencia":"Jefe de la especialidad informática Walter Carnero 11-6099-4485"
+      }
+]
+  

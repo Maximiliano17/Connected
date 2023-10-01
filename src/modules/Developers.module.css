@@ -364,64 +364,6 @@
     border-radius:  0px 0px 10px 10px;
 }
 
-.experiencia{
-    width: 70%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
-    flex-direction: column;
-    background: #002858;
-}
-
-.cardExperiencia{
-    width: 90%;
-    height: 25%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;  
-    flex-direction: column;
-    background: white;
-    color: #746d6d;
-    border: solid 1px #ccc;
-}
-
-.cardExperiencia p{
-    width: 100%;
-    padding-left: 20px;
-    font-size: 15px;
-    color: rgb(31, 29, 29);
-}
-
-.cardExperiencia h2{
-    width: 100%;
-    padding-left: 20px;
-    font-size: 20px;
-}
-
-.cardExperiencia span{
-    width: 100%;
-    padding-left: 20px;
-    font-size: 15px;
-}
-
-.imagenExperiencia{
-    width: 30%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-}
-
-.imagenExperiencia img{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-}
-
 @media(max-width: 1320px){
 
     .cardDev{

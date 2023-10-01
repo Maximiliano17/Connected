@@ -1,0 +1,37 @@
+[
+    { 
+      "id": "Certificado",
+      "owner": "Juan",
+      "certificación_obtenida": "Lógica de programación: Primeros pasos.",
+      "empresa": "ONE Oracle.",
+      "fecha_de_obtención": "5/04/2023"
+    },
+    {
+      "id": "Certificado",
+      "owner": "Juan",
+      "certificación_obtenida": "1° puesto Certamen Desafios TECIP de Programacion Categoria 2.",
+      "empresa": "Expedido por Departamento de Informatica de la Institucion.",
+      "fecha_de_obtención": "20/10/2022"
+    },
+    {
+      "id": "Certificado",
+      "owner": "Juan",
+      "certificación_obtenida": "Técnico en informática personal y profesional.",
+      "empresa": "Escuela De Educación Secundaria Técnica N°5 Merlo Libertad.",
+      "fecha_de_obtención": "Cursando: el último año"
+    },
+    {
+      "id": "Certificado",
+      "owner": "Juan",
+      "certificación_obtenida": "Certificación obtenida: SQL.",
+      "empresa": "OpenBootcamp.",
+      "fecha_de_obtención": "27/03/2023"
+    },
+    {
+      "id": "Certificado",
+      "owner": "Juan",
+      "certificación_obtenida": "Certificate EF SET ENGLISH.",
+      "empresa": "Expedido por EF International Language Centers.",
+      "fecha_de_obtención": "4/01/2022"   
+    }
+  ]

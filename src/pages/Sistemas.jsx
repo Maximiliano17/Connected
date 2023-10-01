@@ -28,9 +28,8 @@ function Sistemas() {
                </div>
             </article> 
           </div>
-         
        </div> 
-        
+       
       </>
     ) 
   }

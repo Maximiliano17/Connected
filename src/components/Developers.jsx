@@ -1,5 +1,4 @@
 //Styles
-import stylesCer from "../modules/Certificaciones.module.css"
 import styles from "../modules/Developers.module.css"
 //Imagenes
 import noticia_imagenes from "../assets/noticias/noticia_principal.jpg"
@@ -26,7 +25,10 @@ import Modal from "react-modal"
 //React
 import { useState } from "react" 
 //Components
-import Certificaciones from "../components/Certificaciones"
+import Certificaciones from "./CertificacionesMaxi"
+import CertificacionesJuan from "./CertificacionesJuan"
+import  ExperienciaMaxi from "./ExperienciaMaxi"
+import ExperienciaJuan from "./ExperienciaJuan"
 const customStyles = {
     content: {
       top: "50%",
@@ -179,7 +181,7 @@ function Developers(){
                       </button>
                    </div>
                    <div className={styles.contenidoModal3}>
-                    <Certificaciones />
+                    <Certificaciones /> 
                    </div>
                  </Modal>
                 {/*Modal Sobre Mi*/} 
@@ -194,7 +196,7 @@ function Developers(){
                    <div className={styles.barraSup}>
                       <p>
                         - Sobre Mi -
-                      </p>
+                      </p> 
                       <button onClick={closeModal2}>
                         X
                       </button>
@@ -283,35 +285,12 @@ function Developers(){
               <p>
                 - Experiencia -
               </p>
-              <button onClick={closeModal}>
+              <button onClick={closeModal}> 
                 X
               </button>
               </div> 
               <div className={styles.contenidoModal}>
-
-               <section className={styles.imagenExperiencia}>
-                <img src={noticia_imagenes} alt="Proyecto" />
-               </section>
-               <section className={styles.experiencia}>
-                <article className={styles.cardExperiencia}>
-                  <p>Programador Front End</p>
-                  <p>Escuela De Educación Secundaria Técnica N°5 Merlo Libertad</p>
-                  <h2>Desarrollo de software controlador de stock.</h2>
-                  <span>Referencia: Jefe de la especialidad informática  Walter Carnero 11-6099-4485</span>
-                </article>
-                <article className={styles.cardExperiencia}>
-                  <p>Programador Full Stack</p>
-                  <p>Escuela De Educación Secundaria Técnica N°5 Merlo Libertad</p>
-                  <h2>Desarrollo de página institucional.</h2>
-                  <span>Referencia: Jefe de la especialidad informática  Walter Carnero 11-6099-4485</span>
-                </article>
-                <article className={styles.cardExperiencia}>
-                  <p>Programador Front End</p>
-                  <p>Empresa de instalaciones eléctricas</p>
-                  <h2>Desarrollo de página informativa. </h2>
-                  <span>Referencia: Jefe de la especialidad informática  Walter Carnero 11-6099-4485</span>
-                </article>
-               </section>
+               <ExperienciaMaxi />
               </div>
               
                 </Modal>  
@@ -380,40 +359,7 @@ function Developers(){
                       </button>
                    </div> 
                    <div className={styles.contenidoModal3}> 
-                    <div className={stylesCer.certificaciones}> 
-                      <h1>Educacion</h1>   
-                      <section className={stylesCer.certificado}>
-                      <article className={stylesCer.cardCertificado}>
-                          <h2>Feria regional de educacion arte ,ciencia y tecnologia</h2>
-                          <span>Representaria a la region 8 en la instancia provincial.</span>
-                          <button>Ver</button>
-                        </article>
-                        <article className={stylesCer.cardCertificado}>
-                          <h2>Técnico en informática personal y profesional</h2>
-                          <p>Escuela De Educación Secundaria Técnica  N°5 Merlo Libertad</p>
-                          <span>Cursando: el último año.</span>
-                          <button>Ver</button>
-                        </article>
-                        <article className={stylesCer.cardCertificado}>
-                          <h2>Certificación  obtenida: Diploma del curso HTML5 y CSS3</h2>
-                          <p>Empresa: OpenBootcamp.</p>
-                          <span>Fecha de obtención: 22/12/2022.</span>
-                          <button>Ver</button>
-                        </article>
-                        <article className={stylesCer.cardCertificado}>
-                          <h2>Certificación  obtenida:Introducción a la programación</h2>
-                          <p>Empresa: OpenBootcamp.</p>
-                          <span>Fecha de obtención: 22/3/2023. </span>
-                          <button>Ver</button>
-                        </article>
-                        <article className={stylesCer.cardCertificado}>
-                          <h2>Certificación  obtenida: SQL</h2>
-                          <p>Empresa: OpenBootcamp.</p>
-                          <span>Fecha de obtención: 27/3/2023.</span>
-                          <button>Ver</button>
-                        </article>
-                    </section>
-                    </div>
+                    <CertificacionesJuan />
                    </div>
                   </Modal>
                   {/*Modal Experiencia Juan*/} 
@@ -434,7 +380,7 @@ function Developers(){
                       </button>
                    </div> 
                    <div className={styles.contenidoModal2}> 
-                     Contenido
+                     <ExperienciaJuan />
                    </div>
                   </Modal>
                   {/*Modal Sobre Mi Juan*/} 
@@ -542,7 +488,6 @@ function Developers(){
                      Certificaciones
                     </button>
                 </div>
-                
             </section>
          </div>  
         </>

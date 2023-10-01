@@ -1,14 +1,14 @@
 //Styles
 import styles from "../modules/barraOp.module.css"
-//Imagenes
-import img from "../assets/icons/html.png"
+ 
 function BarOptions(){
-    return(
+
+    return( 
         <>
-         <div className={styles.barraOp}> 
-       
-        
-         </div>
+         <div>
+            <h1>Lista de Certificados</h1>
+           
+            </div>
         </>
     )
  }

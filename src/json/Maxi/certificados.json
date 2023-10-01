@@ -1,0 +1,37 @@
+[
+  { 
+    "id": "Certificado",
+    "owner": "Maxi",
+    "certificación_obtenida": "Diploma del curso HTML5 y CSS3.",
+    "empresa": "OpenBootcamp.",
+    "fecha_de_obtención": "22/12/2022"
+  },
+  {
+    "id": "Certificado",
+    "owner": "Maxi",
+    "certificación_obtenida": "Técnico en informática personal y profesional.",
+    "empresa": "Escuela De Educación Secundaria Técnica N°5 Merlo Libertad.",
+    "fecha_de_obtención": "Cursando: el último año"
+  },
+  {
+    "id": "Certificado",
+    "owner": "Maxi",
+    "certificación_obtenida": "Certificación obtenida: Diploma del curso HTML5 y CSS3.",
+    "empresa": "OpenBootcamp.",
+    "fecha_de_obtención": "22/12/2022"
+  },
+  {
+    "id": "Certificado",
+    "owner": "Maxi",
+    "certificación_obtenida": "Certificación obtenida:Introducción a la programación.",
+    "empresa": "OpenBootcamp.",
+    "fecha_de_obtención": "22/03/2023"
+  },
+  {
+    "id": "Certificado",
+    "owner": "Maxi",
+    "certificación_obtenida": "Certificación obtenida: SQL.",
+    "empresa": "OpenBootcamp.",
+    "fecha_de_obtención": "27/03/2023"
+  }
+]
