@@ -7,6 +7,10 @@ import pañolLogo from "../assets/sistemas/pañolimg.png"
 import icon1 from "../assets/sistemas/1.png"
 import icon2 from "../assets/sistemas/2.png"
 import icon3 from "../assets/sistemas/3.png"
+//Escuelas Logos
+import eestn5 from "../assets/logo/escuelaPañollogo.png"
+import eestn1 from "../assets/logo/escuelaPañollogo1.png"
+import eestn3 from "../assets/logo/escuelaPañollogo3.png"
 function pañol(){
     return(
         <>
@@ -45,6 +49,17 @@ function pañol(){
               La sección de pedidos presenta un registro detallado con información sobre el solicitante, fecha y hora del pedido, herramientas seleccionadas y la posibilidad de descargar en PDF. Esto garantiza una trazabilidad completa y simplifica la finalización del proceso.
              </p> 
             </article>
+         </div>
+         <section className={styles.escuelasAdd}>
+           <h2>Instituciones Aderidas</h2>
+          <div className={styles.instituciones}> 
+            <img src={eestn5} alt="Add" />
+            <img src={eestn1} alt="Add" />
+            <img src={eestn3} alt="Add" />
+          </div>
+         </section>
+         <div className={styles.vistasReales}>
+          
          </div>
         </>
     )
