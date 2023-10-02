@@ -144,6 +144,18 @@
     .infoPañol button{
        width: 200px;
     }
+    /*BeneficiosPañol*/
+    .beneficiosPañol{
+        width: 100%;
+        height: fit-content;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .cardPañol{
+        width: 310px;
+    }
 }
 
 @media(max-width: 720px){
