@@ -66,7 +66,7 @@ function Header() {
               <Link to={`/Sistemas`} className={styles.nav_item_res}> 
                 Sistemas 
               </Link>
-              <Link to={`/Home`} className={styles.nav_item_res}>
+              <Link to={`/Taller`} className={styles.nav_item_res}>
                 Pañol 
               </Link>
               <Link to={`/Home`} className={styles.nav_item_res}>
@@ -95,11 +95,11 @@ function Header() {
          <nav className={styles.nav}> 
           <Link to={`/Home`} className={styles.nav_item}>
               Home 
-            </Link> 
+            </Link>  
             <Link to={`/Sistemas`} className={styles.nav_item}> 
               Sistemas 
             </Link>
-            <Link to={`/Home`} className={styles.nav_item}>
+            <Link to={`/taller`} className={styles.nav_item}>
               Pañol 
             </Link>
             <Link to={`/Home`} className={styles.nav_item}>

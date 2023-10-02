@@ -1,0 +1,170 @@
+ /*Styles*/
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+/*ContainerPañol*/
+.pañolContent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pañolContent h1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: #002858; 
+}
+
+.pañolHome{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenPañol{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoPañol{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.infoPañol p{
+    width: 90%; 
+    height: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: justify;
+    color: rgb(90, 85, 85);
+}
+
+.infoPañol button{
+    width: 50%;
+    height: 2.5rem;
+    border-style:none;
+    background: #fd5308;
+    border-radius: 20px;
+    color:white;
+    font-size: 15px;
+    transition: 500ms;
+}
+
+.infoPañol button:hover{
+    background: white;
+    color:#fd5308;
+    border:solid 2px #fd5308;
+    transition: 500ms;
+}
+
+/*beneficiosPañol*/
+.beneficiosPañol{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cardPañol{
+    width: 25%;
+    height: 70%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; 
+    border-radius: 0px 0px 10px 10px;
+}
+
+.cardPañol img{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.cardPañol span{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: #002858;
+    font-size: 20px;
+}
+
+.cardPañol p{
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    object-fit: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(90, 85, 85);
+}
+
+@media(max-width: 1320px){
+    .pañolContent{
+        flex-direction: column;
+    }
+
+    .infoPañol p{
+        width: 500px;
+    }
+
+    .infoPañol button{
+       width: 200px;
+    }
+}
+
+@media(max-width: 720px){
+    
+    .pañolContent{
+        justify-content: space-between;
+    }
+
+    .infoPañol {
+        width: 90%;
+        height: 50%;
+    }
+
+    .infoPañol p{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .imagenPañol img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+}

@@ -59,13 +59,13 @@
 
 .content p{
     width: 80%;
-    height: 90%;
-    overflow-y: scroll;
+    height: 100%;
+    overflow: auto; 
     color:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 100;
+    flex-direction: column;
 }
 
 /*Scroll Nav*/
@@ -93,20 +93,36 @@
   }
 
 @media(max-width: 800px){
+  .sistemasContent{
+    height: fit-content;
+  }
+   .content{
+    background: white;
+    margin-bottom: 10px;
+    height: fit-content;
+    opacity: 0.7;
+   }
+   .content p{
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+   }
    .imagenhome{
     flex-direction: column;
     overflow-y: scroll;
-    padding-top: 20px;
-    padding-bottom: 20px;
    }
    .cardSistemas{
-    width: 80%;
-    height: 40%;
+    width: 90%;  
+    height: 45%;
     display: flex;
     justify-content: center;
     align-items: center;  
    }
    .cardSistemas h1{
-     font-size: 15px;
+     margin-top: 10px;
+     font-size: 20px;
+     height: 35px;
+     background: #fd5308;
    }
 }

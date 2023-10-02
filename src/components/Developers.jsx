@@ -1,7 +1,6 @@
 //Styles
 import styles from "../modules/Developers.module.css"
 //Imagenes
-import noticia_imagenes from "../assets/noticias/noticia_principal.jpg"
 import perfilMaxi from "../assets/img/fotoPerfil.jpeg"
 import sobreMiMaxi from "../assets/img/sobreMiMaxi.jpeg"
 import sobreMiMaxi2 from "../assets/img/sobreMiMaxi2.jpeg"

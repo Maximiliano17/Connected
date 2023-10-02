@@ -1,6 +1,7 @@
 //Components
 import App from './App.jsx'
 import Home from './pages/Home.jsx'
+import Pañol from "./pages/Pañol.jsx"
 // Imports
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
   {
     path: "/taller",
     element: (
-        <Home />
+        <Pañol />
     ),
   },
   {

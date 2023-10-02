@@ -1,0 +1,17 @@
+/*Styles*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+} 
+/*Pagina*/ 
+.pagContent{
+    width: 100%;
+    height: 100vh;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,#002858, #e6e0e0);
+}  
