@@ -1,8 +1,10 @@
- /*Styles*/
- *{
+/*Styles*/
+*{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 /*ContainerPañol*/
 .pañolContent{
@@ -135,20 +137,17 @@
 /*escuelasAdd*/
 .escuelasAdd{
     width: 100%;
-    height: fit-content;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;  
-    padding-top: 20px; 
-    padding-bottom: 20px;  
+    border: dashed 1px #ccc;
 }
 
 .escuelasAdd h2{
-    width: fit-content;
-    height: fit-content;
-    padding:10px;
-    border-radius: 100px;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,14 +158,17 @@
 }
 
 .escuelasAdd h2:hover{
-    font-size: 50px;
+    font-size: 40px;
     transition: 500ms;
+    color: white;
+    background: #002858;
+    border:solid 1px #002858;
 }
 
 .instituciones{
     width: 70%;
     height: 80%;
-    display: grid;
+    display: none;
     grid-template-columns: repeat(3, 200px);
     grid-template-rows: 200px;
     justify-content: space-around;
@@ -176,8 +178,7 @@
 }
 
 .instituciones img{
-    width: 120px;
-    height: 120px;
+    height: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,7 +188,67 @@
 
 .vistasReales{
     width: 100%;
-    height: 100vh;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.vistasReales img{
+    height: 210px;
+    object-fit: cover;
+}
+
+.ejemplo1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.info p{
+    width: 80%;
+    height: fit-content;
+    color: #002858;
+    font-size: 20px;
+}
+
+.info span{
+    width: 80%;
+    font-size: 20px;
+    color: rgb(90, 85, 85);
+    height: fit-content;
+}
+
+.info label{
+    width: 80%;
+    height: fit-content;
+    color: #fd5308;
+}
+
+.ejemplo2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ejemplo3{
+    width: 100%;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,6 +311,87 @@
         height: 300px;
         object-fit: cover;
     }
+
+    .ejemplo1{
+        width: 90%;
+        height: fit-content;
+        gap: 1rem;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .ejemplo1 p{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ejemplo1 span{
+        width: 300px;
+        text-align: center;
+    }
+
+    .ejemplo1 label{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+
+    .ejemplo2{
+        width: 90%;
+        height: fit-content;
+        gap: 1rem;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .ejemplo2 p{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ejemplo2 span{
+        width: 300px;
+        text-align: center;
+    }
+
+    .ejemplo2 label{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+
+    .ejemplo3{
+        width: 90%;
+        height: fit-content;
+        gap: 1rem;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .ejemplo3 p{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ejemplo3 span{
+        width: 300px;
+        text-align: center;
+    }
+
+    .ejemplo3 label{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
 }
 
 @media(max-width: 500px){

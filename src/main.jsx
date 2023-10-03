@@ -1,7 +1,8 @@
 //Components
 import App from './App.jsx'
-import Home from './pages/Home.jsx'
+import Home from './pages/Home.jsx' 
 import Pañol from "./pages/Pañol.jsx"
+import Petzify from "./pages/Petzify.jsx"
 // Imports
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -37,7 +38,7 @@ const router = createBrowserRouter([
   {
     path: "/petzify",
     element: (
-        <Home />
+        <Petzify />
     ),
   },
   {

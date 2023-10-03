@@ -102,7 +102,7 @@ function Header() {
             <Link to={`/taller`} className={styles.nav_item}>
               Pañol 
             </Link>
-            <Link to={`/Home`} className={styles.nav_item}>
+            <Link to={`/Petzify`} className={styles.nav_item}>
               Petzify 
             </Link>
             <Link to={`/Home`} className={styles.nav_item}>

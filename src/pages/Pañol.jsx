@@ -51,7 +51,7 @@ function pañol(){
             </article>
          </div>
          <section className={styles.escuelasAdd}>
-           <h2>Instituciones Aderidas</h2>
+           <h2>Instituciones Adheridas</h2>
           <div className={styles.instituciones}> 
             <img src={eestn5} alt="Add" />
             <img src={eestn1} alt="Add" />
@@ -59,7 +59,36 @@ function pañol(){
           </div>
          </section>
          <div className={styles.vistasReales}>
-          
+            <section className={styles.ejemplo1}>
+              <img src={eestn5} alt="Escuela" />
+             <div className={styles.info}>
+              <p>E.E.S.T.N° 5</p>
+              <span>
+               “Con Omnicommerce me olvidé de controlar el stock a cada rato y pude potenciar mi negocio a gran escala y con seguridad.”
+              </span>
+              <label>Profesor: Ruben Monje</label>
+             </div>
+            </section>
+            <section className={styles.ejemplo2}>
+            <img src={eestn1} alt="Escuela" />
+            <div className={styles.info}>
+            <p>E.E.S.T.N-1</p>
+              <span>
+              “Con Omnicommerce me olvidé de controlar el stock a cada rato y pude potenciar mi negocio a gran escala y con seguridad.”
+              </span>
+              <label>Profesor: Sergio Romano</label>
+             </div>
+            </section>
+            <section className={styles.ejemplo3}>
+            <img src={eestn3} alt="Escuela" />
+            <div className={styles.info}>
+            <p>E.E.S.T.N° 3</p>
+              <span>
+              “Con Omnicommerce me olvidé de controlar el stock a cada rato y pude potenciar mi negocio a gran escala y con seguridad.”
+              </span>
+              <label>Profesor: Carlos Acuña</label>
+             </div>
+            </section>
          </div>
         </>
     )
