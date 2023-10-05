@@ -63,13 +63,16 @@ function Header() {
             <Link to={`/Home`} className={styles.nav_item_res}>
                 Home 
               </Link> 
+              <Link to={`/Petzify`} className={styles.nav_item_res}>
+                Eventos 
+              </Link>
               <Link to={`/Sistemas`} className={styles.nav_item_res}> 
                 Sistemas 
               </Link>
               <Link to={`/Taller`} className={styles.nav_item_res}>
                 Pañol 
               </Link>
-              <Link to={`/Home`} className={styles.nav_item_res}>
+              <Link to={`/Petzify`} className={styles.nav_item_res}>
                 Petzify 
               </Link>
               <Link to={`/Home`} className={styles.nav_item_res}>
@@ -96,6 +99,9 @@ function Header() {
           <Link to={`/Home`} className={styles.nav_item}>
               Home 
             </Link>  
+            <Link to={`/Home`} className={styles.nav_item}>
+                Eventos 
+              </Link>
             <Link to={`/Sistemas`} className={styles.nav_item}> 
               Sistemas 
             </Link>

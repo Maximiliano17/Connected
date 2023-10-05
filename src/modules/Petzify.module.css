@@ -23,6 +23,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #fff;
 }
 
 .homePet{
@@ -123,7 +124,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e2dfdf;
+    background-color: rgb(67, 231, 67);
 }
 
 .imagenMano{
@@ -135,7 +136,7 @@
 }
 
 .imagenMano img{
-    height: 90%;
+    height: 80%;
     object-fit: cover;
 }
 
@@ -181,28 +182,48 @@
     height: 70px;
     object-fit: cover;
     transform: translateZ(20px);
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
 }
 
 /*sobrelaApp*/
 .sobrelaApp{
     width: 100%;
     height: 100vh;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.sobrelaApp img{
+    width: fit-content;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.infoApp{
+    width: 100%;
+    height: 30%;
 }
 
 @media(max-width: 1320px){
    .homePet{
+    height: fit-content;
+    padding: 20px;
     flex-direction: column;
    }
 
    .infoDownload{
     width: 500px;
+    height: 700px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+   }
+
+   .infoDownload h1{
+    font-size: 30px;
    }
 
    .infoDownload h1{
@@ -225,10 +246,61 @@
     height: fit-content;
     padding-right: 0px;
    }
+   .infoImagen{
+    display: none;
+  }
+  /*caracteristicasApp*/
+
+    .caracteristicasApp{
+        width: 100%;
+        height: fit-content;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(67, 231, 67);
+    }
+
+    .imagenMano{
+        width: 100%;
+        height: 500px;
+    }
+
+    .imagenMano img{
+        height: 70%;
+        object-fit: cover;
+    }
+
+  /*sobrelaApp*/
+ 
 }
 
 @media(max-width: 720px){
   .infoDownload{
     width: 90%;
+    height: 400px;
   }
+   
+  .imagenMano{
+    width: 80%;
+    height: 400px;
+  }
+
+  .cardMano{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    grid-template-rows: 100px 100px 100px 100px;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    gap: 7rem;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+ }
+
 }
