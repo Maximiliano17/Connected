@@ -10,10 +10,16 @@ import petshop from "../assets/icons/petshop.png"
 import adoptar from "../assets/icons/adoptar.png"
 import perfiles from "../assets/icons/crearPerfiles.png"
 import fotos from "../assets/icons/subirFoto.png"
-//Json
-import jsonPet from "../json/petzify.json"
+//Redes
+import Red_icon_1 from "../assets/icons/instagram_icon.png"
+import Red_icon_2 from "../assets/icons/tiwtter_icon.png"
+import Red_icon_3 from "../assets/icons/youtube_icon.png"
 //Banners
 import banner from "../assets/banners/banner.png"
+//React
+import React from 'react'
+import ReactPlayer from 'react-player'
+
 function Petzify(){
     return(
         <>
@@ -70,10 +76,19 @@ function Petzify(){
             </section>
          </div>
          <div className={styles.sobrelaApp}>
-          <img src={banner} alt="Banner" />
           <div className={styles.infoApp}>
-           
+              <ReactPlayer className={styles.videoYoutube} controls url='https://youtu.be/sd4FjQaW0-4?si=MOEje6zo13epZcAs' />
+            <div className={styles.listVideo}>
+             <ul>
+              <li><a href="" target="_blanck"><img src={Red_icon_1} alt="Ig"/></a></li>
+              <li><a href="" target="_blanck"><img src={Red_icon_2} alt="Ig"/></a></li>
+              <li><a href="" target="_blanck"><img src={Red_icon_3} alt="Ig"/></a></li>
+             </ul>
+            </div>
           </div>
+          <section className={styles.bannerApp}>
+            <img src={banner} alt="Banner" />
+          </section>
          </div>
         </>
     )
