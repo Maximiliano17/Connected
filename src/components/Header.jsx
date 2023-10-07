@@ -68,14 +68,14 @@ function Header() {
               </Link>
               <Link to={`/Sistemas`} className={styles.nav_item_res}> 
                 Sistemas 
-              </Link>
+              </Link> 
               <Link to={`/Taller`} className={styles.nav_item_res}>
                 Pañol 
               </Link>
               <Link to={`/Petzify`} className={styles.nav_item_res}>
                 Petzify 
               </Link>
-              <Link to={`/Home`} className={styles.nav_item_res}>
+              <Link to={`/medical`} className={styles.nav_item_res}>
                 Codigo azul 
               </Link>
               <button className={styles.botonmodal_res} onClick={closeModal}>
@@ -111,7 +111,7 @@ function Header() {
             <Link to={`/Petzify`} className={styles.nav_item}>
               Petzify 
             </Link>
-            <Link to={`/Home`} className={styles.nav_item}>
+            <Link to={`/medical`} className={styles.nav_item}>
               Codigo azul 
             </Link>
         </nav> 

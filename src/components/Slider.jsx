@@ -4,7 +4,10 @@ import Carousel from '@itseasy21/react-elastic-carousel';
 import styles from "../modules/Slider.module.css";
 //Imagenes
 import Noticia from "../assets/noticias/noticia_principal.jpg"
-
+import Banner1 from "../assets/banners/banner.png"
+import Banner2 from "../assets/banners/bannerHospital.png"
+import Banner3 from "../assets/banners/bannerHospital2.jpg"
+import Banner4 from "../assets/banners/bannerHospital3.jpg"
 function Slider(){
     const responsive = {
         desktop: {
@@ -21,25 +24,25 @@ function Slider(){
           breakpoint: { max: 464, min: 0 },
           items: 1,
           slidesToSlide: 1 // optional, default to 1.
-        }
+        } 
       };
     return( 
     <>
        <Carousel >
             <div className={styles.carrusel}>
-                 <img src={Noticia} alt="hola" />
+                 <img src={Banner4} alt="hola" />
             </div>
             <div className={styles.carrusel}>
-                 <img src={Noticia} alt="hola" />
+                 <img src={Banner2} alt="hola" />
             </div>
             <div className={styles.carrusel}>
-                 <img src={Noticia} alt="hola" />
+                 <img src={Banner3} alt="hola" />
             </div>
             <div className={styles.carrusel}>
-                 <img src={Noticia} alt="hola" />
+                 <img src={Banner1} alt="hola" />
             </div>
             <div className={styles.carrusel}>
-                 <img src={Noticia} alt="hola" />
+                 <img src={Banner2} alt="hola" />
             </div>
           </Carousel>
     </>

@@ -3,6 +3,7 @@ import App from './App.jsx'
 import Home from './pages/Home.jsx' 
 import Pañol from "./pages/Pañol.jsx"
 import Petzify from "./pages/Petzify.jsx"
+import CodBlue from "./pages/CodBlue.jsx"
 // Imports
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -44,7 +45,7 @@ const router = createBrowserRouter([
   {
     path: "/medical",
     element: (
-        <Home />
+        <CodBlue />
     ),
   },
 ]);

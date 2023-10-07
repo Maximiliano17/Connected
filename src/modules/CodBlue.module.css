@@ -1,0 +1,122 @@
+ /*Styles*/
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+  
+/*CodBlue*/
+.codBlueHome{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+} 
+
+/*Slider*/
+.slider{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*seccionesCod*/
+.seccionesCod{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(243, 239, 239);
+   /*
+     background-image: url('../assets/banners/bannerHospital.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+   */
+}
+
+.homeCard{
+    width: 25%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px #000;
+    backdrop-filter: blur(100px);
+    margin-right: 50%;
+}
+
+.homeCard h1{
+    width: 100%;
+    height: fit-content;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(90, 85, 85);
+}
+
+.homeCard p{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    color: rgb(90, 85, 85);
+}
+
+.homeCard button{
+    width: 100px;
+    height: 2rem;
+    border-style:none;
+    background: #fd5308;
+    border-radius: 20px;
+    color:white;
+    font-size: 15px;
+    transition: 500ms;
+}
+
+.homeCard button:hover{
+    background: white;
+    color:#fd5308;
+    border:solid 2px #fd5308;
+    transition: 500ms;
+}
+
+.puntosCod{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardPuntos{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+    transition: 500ms;
+}
+
+.cardPuntos img{
+    width: 90%;
+    height: fit-content;
+}
+
+.cardPuntos p{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: brown;
+}

@@ -4,16 +4,11 @@ import Header from "../components/Header"
 import styles from "../modules/Petzify.module.css"
 //Imagenges
 import logoapp from "../assets/noticias/noticia_principal.jpg"
-import appmano from "../assets/logo/Mano_con_celular.webp"
 import app from "../assets/icons/app.png"
 import petshop from "../assets/icons/petshop.png"
 import adoptar from "../assets/icons/adoptar.png"
 import perfiles from "../assets/icons/crearPerfiles.png"
 import fotos from "../assets/icons/subirFoto.png"
-//Redes
-import Red_icon_1 from "../assets/icons/instagram_icon.png"
-import Red_icon_2 from "../assets/icons/tiwtter_icon.png"
-import Red_icon_3 from "../assets/icons/youtube_icon.png"
 //Banners
 import banner from "../assets/banners/banner.png"
 //React
@@ -78,13 +73,15 @@ function Petzify(){
          <div className={styles.sobrelaApp}>
           <div className={styles.infoApp}>
               <ReactPlayer className={styles.videoYoutube} controls url='https://youtu.be/sd4FjQaW0-4?si=MOEje6zo13epZcAs' />
-            <div className={styles.listVideo}>
-             <ul>
-              <li><a href="" target="_blanck"><img src={Red_icon_1} alt="Ig"/></a></li>
-              <li><a href="" target="_blanck"><img src={Red_icon_2} alt="Ig"/></a></li>
-              <li><a href="" target="_blanck"><img src={Red_icon_3} alt="Ig"/></a></li>
-             </ul>
-            </div>
+            {/*
+               <div className={styles.listVideo}>
+                <ul>
+                  <li><a href="" target="_blanck"><img src={Red_icon_1} alt="Ig"/></a></li>
+                  <li><a href="" target="_blanck"><img src={Red_icon_2} alt="Ig"/></a></li>
+                  <li><a href="" target="_blanck"><img src={Red_icon_3} alt="Ig"/></a></li>
+                </ul>
+              </div>
+            */}
           </div>
           <section className={styles.bannerApp}>
             <img src={banner} alt="Banner" />
