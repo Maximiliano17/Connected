@@ -4,6 +4,7 @@ import Slider from "../components/Slider"
 //Styles
 import  styles from "../modules/CodBlue.module.css"
 //Imagenes
+import p from "../assets/img/p.png"
 import imagen1 from "../assets/img/1.png"
 import imagen2 from "../assets/img/2.png"
 import imagen3 from "../assets/img/3.png"
@@ -20,42 +21,33 @@ function CodBlue() {
         </section>
         <section className={styles.puntosCod}>
           <article className={styles.cardPuntos}>
-            <img src={imagen1} />
+            <img src={p} />
             <p>
               Tus pacientes en un solo lugar.
             </p>
           </article>
           <article className={styles.cardPuntos}>
-            <img src={imagen2} />
+            <img src={p} />
             <p>
               Crea y asigna personal medico.
             </p>
           </article>
           <article className={styles.cardPuntos}>
-            <img src={imagen3} />
+            <img src={p} />
             <p>
               Monitorea tus areas.
             </p>
           </article>
           <article className={styles.cardPuntos}>
-            <img src={imagen4} />
+            <img src={p} />
             <p>
               Ingresa a tus pacientes al hospital.
             </p>
           </article>
-          
         </section>
-         {/*
-        <section className={styles.seccionesCod}>
-            <div className={styles.homeCard}>
-          <h1>¿Querés asociarte?</h1>
-          <p>
-          Contratá la mejor cobertura médica
-          </p>
-          <button>Conseguir</button>
-         </div>
-        </section>
-        */}
+      </div>
+      <div className={styles.secciones}>
+        Hola
       </div>
       </>
     ) 

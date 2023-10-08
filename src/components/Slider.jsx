@@ -6,6 +6,8 @@ import styles from "../modules/Slider.module.css";
 import Noticia from "../assets/noticias/noticia_principal.jpg"
 import Banner1 from "../assets/banners/banner.png"
 import Banner2 from "../assets/banners/bannerHospital.png"
+import BannerFull from "../assets/banners/bannerHospitalFull.png"
+import BannerFull1 from "../assets/banners/bannerHospitalFull1.png"
 import Banner3 from "../assets/banners/bannerHospital2.jpg"
 import Banner4 from "../assets/banners/bannerHospital3.jpg"
 function Slider(){
@@ -30,10 +32,10 @@ function Slider(){
     <>
        <Carousel >
             <div className={styles.carrusel}>
-                 <img src={Banner4} alt="hola" />
+                 <img src={BannerFull} alt="hola" />
             </div>
             <div className={styles.carrusel}>
-                 <img src={Banner2} alt="hola" />
+                 <img src={BannerFull1} alt="hola" />
             </div>
             <div className={styles.carrusel}>
                  <img src={Banner3} alt="hola" />

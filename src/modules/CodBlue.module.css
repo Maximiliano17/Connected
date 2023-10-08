@@ -89,7 +89,8 @@
 
 .puntosCod{
     width: 100%;
-    height: 50vh;
+    height: fit-content;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -107,7 +108,7 @@
 }
 
 .cardPuntos img{
-    width: 90%;
+    width: 60%;
     height: fit-content;
 }
 
@@ -119,4 +120,13 @@
     align-items: center;
     text-align: center;
     color: brown;
+}
+
+.secciones{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: red;
 }
