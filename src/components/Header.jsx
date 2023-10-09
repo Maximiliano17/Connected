@@ -72,9 +72,9 @@ function Header() {
               <Link to={`/Taller`} className={styles.nav_item_res}>
                 Pañol 
               </Link>
-              <Link to={`/Petzify`} className={styles.nav_item_res}>
+             {/* <Link to={`/Petzify`} className={styles.nav_item_res}>
                 Petzify 
-              </Link>
+              </Link>*/}
               <Link to={`/medical`} className={styles.nav_item_res}>
                 Codigo azul 
               </Link>
@@ -108,9 +108,9 @@ function Header() {
             <Link to={`/taller`} className={styles.nav_item}>
               Pañol 
             </Link>
-            <Link to={`/Petzify`} className={styles.nav_item}>
+           {/* <Link to={`/Petzify`} className={styles.nav_item}>
               Petzify 
-            </Link>
+            </Link>*/}
             <Link to={`/medical`} className={styles.nav_item}>
               Codigo azul 
             </Link>
