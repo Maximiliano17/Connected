@@ -32,7 +32,7 @@ function CodBlue() {
           <span>Creación de Áreas Médicas</span>
           <p>
             La aplicación permite la creación de áreas médicas, lo que implica configurar espacios específicos para el manejo de situaciones médicas críticas. Este punto destaca la capacidad del sistema para adaptarse a la estructura física de un entorno médico y gestionar áreas dedicadas a situaciones urgentes.
-          </p>
+          </p> 
          </article>   
          <article className={styles.cardVentajas}>
           <img src={asignarPersonal} alt="Imagen" />

@@ -230,6 +230,7 @@
     font-size: 20px;
     color: rgb(90, 85, 85);
     height: fit-content;
+    text-align: start;
 }
 
 .info label{
@@ -261,11 +262,13 @@
 
     .infoPañol p{
         width: 500px;
+        text-align: start;
     }
 
     .infoPañol button{
        width: 200px;
     }
+    
     /*BeneficiosPañol*/
     .beneficiosPañol{
         width: 100%;

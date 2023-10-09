@@ -64,7 +64,7 @@ function pañol(){
              <div className={styles.info}>
               <p>E.E.S.T.N° 5</p>
               <span>
-               “Con Omnicommerce me olvidé de controlar el stock a cada rato y pude potenciar mi negocio a gran escala y con seguridad.”
+                "El equipo de trabajo demostró gran responsabilidad y compromiso en la implementación del mismo, con sus exposiciones en distintas instancias solicitadas, que también se vieron en los ajustes recurrentes a cualquier crítica o revisión del sistema con notable dinamismo y actitud proactiva para lograr un desarrollo óptimo y ágil de toda la propuesta."
               </span>
               <label>Profesor: Ruben Monje</label>
              </div>
@@ -76,7 +76,7 @@ function pañol(){
               <span>
               “Con Omnicommerce me olvidé de controlar el stock a cada rato y pude potenciar mi negocio a gran escala y con seguridad.”
               </span>
-              <label>Profesor: Sergio Romano</label>
+               <label>Profesor: Sergio Romano</label>
              </div>
             </section>
             <section className={styles.ejemplo3}>
@@ -84,7 +84,7 @@ function pañol(){
             <div className={styles.info}>
             <p>E.E.S.T.N° 3</p>
               <span>
-              “Con Omnicommerce me olvidé de controlar el stock a cada rato y pude potenciar mi negocio a gran escala y con seguridad.”
+                "Las necesidades emergentes en cuanto a los manejos de grandes cantidades de información de manera organizada con la utilización de bases de datos adaptables, no solo se centran en el pañol sino también se deben extender a otros lugares de la institución, como la biblioteca, secretaría, jefatura de taller, preceptorías, etc."
               </span>
               <label>Profesor: Carlos Acuña</label>
              </div>
