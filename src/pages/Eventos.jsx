@@ -13,69 +13,43 @@ function Eventos() {
         <div className={styles.eventosHome}>
         
         </div>
-       <div className={styles.eventosSec}>
-          <section className={styles.sliderInfo}>
-            <div className={styles.logoExpo}>
-              <img src={imagen} alt="Logo Expo" />
+        <div className={styles.eventosSec}>
+        <section className={styles.sliderInfo}>
+            <div className={styles.sliderSection}>
+             <Slider />
             </div>
           </section>
           <section className={styles.slider}>
+          <img src={imagen} alt="Logo Expo" />
           <h2>HECHO EN MERLO</h2>
            <p>
-             La "Expo Hecho en Merlo" es un evento anual que se celebra en el Parque Municipal Néstor Kirchner, ubicado en Av. Constitución 92, Merlo, Argentina. La quinta edición de la feria se lleva a cabo desde el 2 hasta el 6 de septiembre, con un horario de 12 a 20 horas, y la entrada es libre y gratuita.
-             En este evento, más de 100 industrias, comerciantes y emprendedores de Merlo tienen la oportunidad de mostrar y dar a conocer a la comunidad los productos y servicios que producen. La feria destaca el desarrollo de las pequeñas y medianas empresas (Pymes), emprendedores e industrias locales.
-             Además de la exposición de productos, la feria cuenta con un espacio dedicado a estudiantes de escuelas técnicas, donde se presentan tecnologías, productos locales y artesanales, así como la industria del Animé. También se llevan a cabo ciclos de charlas con la participación de especialistas, funcionarios e invitados.
+            Fuimos partícipes de la feria "Hecho en Merlo", en la cual presentamos nuestro nuevo proyecto, Petzify, una red social para dispositivos móviles. En esta feria conseguimos una gran cantidad de nuevos usuarios, junto con un bono para investigación de 150 mil pesos argentinos.
            </p>
           <section className={styles.has}>
             <span>#Merlo</span>
             <span>#HechoEnMerlo</span>
             <span>#IntendenteVisita</span>
-            <span>#VivaMilei</span>
-            <span>#Cordoba</span>
+            <span>#Petzify</span>
           </section>
           </section>
         </div>
         <div className={styles.eventosSec}>
-          <section className={styles.sliderInfo}>
-            <div className={styles.logoExpo}>
-              <img src={imagen} alt="Logo Expo" />
+        <section className={styles.sliderInfo}>
+            <div className={styles.sliderSection}>
+             <Slider />
             </div>
           </section>
           <section className={styles.slider}>
-          <h2>HECHO EN MERLO</h2>
+          <img src={imagen} alt="Logo Expo" />
+          <h2>FERIA DE CIENCIAS Y TECNOLOGIAS NIVEL PROVINCIAL</h2>
            <p>
-             La "Expo Hecho en Merlo" es un evento anual que se celebra en el Parque Municipal Néstor Kirchner, ubicado en Av. Constitución 92, Merlo, Argentina. La quinta edición de la feria se lleva a cabo desde el 2 hasta el 6 de septiembre, con un horario de 12 a 20 horas, y la entrada es libre y gratuita.
-             En este evento, más de 100 industrias, comerciantes y emprendedores de Merlo tienen la oportunidad de mostrar y dar a conocer a la comunidad los productos y servicios que producen. La feria destaca el desarrollo de las pequeñas y medianas empresas (Pymes), emprendedores e industrias locales.
-             Además de la exposición de productos, la feria cuenta con un espacio dedicado a estudiantes de escuelas técnicas, donde se presentan tecnologías, productos locales y artesanales, así como la industria del Animé. También se llevan a cabo ciclos de charlas con la participación de especialistas, funcionarios e invitados.
+            Fuimos partícipes de la feria "Hecho en Merlo", en la cual presentamos nuestro nuevo proyecto, Petzify, una red social para dispositivos móviles. En esta feria conseguimos una gran cantidad de nuevos usuarios, junto con un bono para investigación de 150 mil pesos argentinos.
            </p>
           <section className={styles.has}>
             <span>#Merlo</span>
             <span>#HechoEnMerlo</span>
             <span>#IntendenteVisita</span>
-            <span>#VivaMilei</span>
-            <span>#Cordoba</span>
-          </section>
-          </section>
-        </div>
-        <div className={styles.eventosSec}>
-          <section className={styles.sliderInfo}>
-            <div className={styles.logoExpo}>
-              <img src={imagen} alt="Logo Expo" />
-            </div>
-          </section>
-          <section className={styles.slider}>
-          <h2>HECHO EN MERLO</h2>
-           <p>
-             La "Expo Hecho en Merlo" es un evento anual que se celebra en el Parque Municipal Néstor Kirchner, ubicado en Av. Constitución 92, Merlo, Argentina. La quinta edición de la feria se lleva a cabo desde el 2 hasta el 6 de septiembre, con un horario de 12 a 20 horas, y la entrada es libre y gratuita.
-             En este evento, más de 100 industrias, comerciantes y emprendedores de Merlo tienen la oportunidad de mostrar y dar a conocer a la comunidad los productos y servicios que producen. La feria destaca el desarrollo de las pequeñas y medianas empresas (Pymes), emprendedores e industrias locales.
-             Además de la exposición de productos, la feria cuenta con un espacio dedicado a estudiantes de escuelas técnicas, donde se presentan tecnologías, productos locales y artesanales, así como la industria del Animé. También se llevan a cabo ciclos de charlas con la participación de especialistas, funcionarios e invitados.
-           </p>
-          <section className={styles.has}>
-            <span>#Merlo</span>
-            <span>#HechoEnMerlo</span>
-            <span>#IntendenteVisita</span>
-            <span>#VivaMilei</span>
-            <span>#Cordoba</span>
+            <span>#Petzify</span>
           </section>
           </section>
         </div>

@@ -8,14 +8,16 @@
 } 
 /*Slider*/ 
 .carrusel{
-    height: 450px;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center; 
 }
 
 .carousel img{
-    width: 100vw;
+    width: 100%;
     height: fit-content;
     object-fit: cover;
 }
