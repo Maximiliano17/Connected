@@ -15,97 +15,154 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-} 
+    background: white; 
+}
 
 .eventosHome{
     width: 100%;
-    height: 80vh;
+    height: calc(100vh - 7rem);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url('../assets/banners/eventosFon.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
+} 
+
+.eventImagen{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.eventosSec{
+.eventImagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.eventInfo{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.eventInfo h1{
+    width: 80%;
+    height: fit-content;
+    font-size: 30px;
+    color: #002858; 
+}
+
+.eventInfo p{
+    width: 80%;
+    height: fit-content;
+    color: rgb(90, 85, 85);
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.cardEvents{
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+    background: white;
 }
 
-.slider{
-    width: 50%;
-    height: 90%;
-    padding-top: 10px; 
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    flex-direction: column; 
-}
-
-.slider h2{
-    width: 90%;
+.nabvar{
+    width: 100%;
     height: 10%;
     display: flex;
-    text-align: start;
-    color: #002858;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: white;
 }
 
-.sliderInfo{
-    width: 40%;
-    height: 90%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;    
-    flex-direction: column;
-}
-
-.slider img{
-    width: fit-content;
-    height: 50%;
-    padding-right: 30%;
-}
-
-.slider p{
-    width: 90%;
-    height: fit-content;
-    padding: 10px;
-    color: rgb(90, 85, 85);
-    text-align: start;
-}
-
-.has{
-    width: 90%;
-    height: fit-content;
+.nabvar button{
+    width: 120px;
+    height: 2.5rem;
     padding: 10px;
     display: flex;
-    justify-content: space-around; 
-    align-items: center; 
-}
-
-.has span{
-    width: fit-content;
-    height: 2rem;
-    padding: 10px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;  
-    background: #fd5308;
-    border: solid 1px #fd5308;
+    justify-content: center;
+    align-items: center;
+    background: #002858;
+    color: white;
+    border-style: none;
     border-radius: 100px;
-    color:white;
+    transition: 500ms;
 }
 
-/*logoExpo*/
+.nabvar button:hover{
+    color: #002858;
+    border: solid 1px #002858;
+    background: white;
+    transition: 500ms;
+}
 
-.sliderSection{
+/*Contenido*/
+.content{
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center; 
-    align-items: center;  
+    height: 90%;    
 }
+
+.contentCard{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3 , 320px);
+    grid-template-rows: 500px 500px;
+    justify-content: space-around;
+    align-items: center;
+    place-items: center;
+    grid-gap:2rem;
+    padding: 20px;
+}
+
+.exjson{
+  width: 320px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0px 0px 3px #002858;
+  border: solid 1px #002858;
+  border-radius: 10px;
+}
+
+.exjson h2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #002858;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+} 
+
+.exjson p{
+   width: 90%;
+   height: 50%;
+   color: rgb(90, 85, 85);
+   text-align: justify;
+   line-height: 1.5;
+   font-size: 15px;
+}
+
+.exjson img{
+    width: 90%;
+    height: 30%;
+    object-fit: cover;
+}
+
  

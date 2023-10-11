@@ -63,7 +63,7 @@ function Header() {
             <Link to={`/Home`} className={styles.nav_item_res}>
                 Home 
               </Link> 
-              <Link to={`/eventos`} className={styles.nav_item_res}>
+              <Link to={`/Eventos`} className={styles.nav_item_res}>
                 Eventos 
               </Link>
               <Link to={`/Sistemas`} className={styles.nav_item_res}> 
@@ -72,11 +72,14 @@ function Header() {
               <Link to={`/Taller`} className={styles.nav_item_res}>
                 Pañol 
               </Link>
-             {/* <Link to={`/Petzify`} className={styles.nav_item_res}>
+              <Link to={`/Petzify`} className={styles.nav_item_res}>
                 Petzify 
-              </Link>*/}
-              <Link to={`/medical`} className={styles.nav_item_res}>
+              </Link>
+              <Link to={`/Medical`} className={styles.nav_item_res}>
                 Codigo azul 
+              </Link>
+              <Link to={`/Robotica`} className={styles.nav_item_res}>
+                Robotica 
               </Link>
               <button className={styles.botonmodal_res} onClick={closeModal}>
                 X
@@ -108,11 +111,14 @@ function Header() {
             <Link to={`/taller`} className={styles.nav_item}>
               Pañol 
             </Link>
-           {/* <Link to={`/Petzify`} className={styles.nav_item}>
+            <Link to={`/Petzify`} className={styles.nav_item}>
               Petzify 
-            </Link>*/}
+            </Link>
             <Link to={`/medical`} className={styles.nav_item}>
               Codigo azul 
+            </Link>
+            <Link to={`/Robotica`} className={styles.nav_item}>
+              Robotica 
             </Link>
         </nav> 
          <div className={styles.redesHeader}>

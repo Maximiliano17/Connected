@@ -5,52 +5,46 @@ import Slider from "../components/Slider"
 import styles from "../modules/Eventos.module.css"
 //Imagenes
 import imagen from "../assets/img/sobreMiMaxi.jpeg"
+import eventoBanner from "../assets/banners/eventoJuan.jpeg"
+import evento from "../assets/sistemas/eventoConnected.jpeg"
+//Json
+import exjson from "../json/eventos.json"
 function Eventos() {
-    return ( 
+    return (  
       <> 
       <Header />
       <div className={styles.eventosContainer}> 
         <div className={styles.eventosHome}>
-        
-        </div>
-        <div className={styles.eventosSec}>
-        <section className={styles.sliderInfo}>
-            <div className={styles.sliderSection}>
-             <Slider />
+          {/*Imagen Evento*/} 
+          <section className={styles.eventImagen}>
+           <img src={eventoBanner} alt="ImagenEvent" />
+         </section>
+         {/*Info Evento*/}
+          <section className={styles.eventInfo}>
+            <h1> Eventos</h1>
+            <p>
+             En Connected World, participamos activamente en diversos eventos, con el objetivo de exhibir ante el público lo mejor de nuestros sistemas y aplicaciones. A continuación, destacaremos algunas de nuestras actuaciones más destacadas en ferias, eventos y exposiciones.
+            </p>    
+          </section>
+        </div> 
+        <div className={styles.cardEvents}>
+          <section className={styles.nabvar}>
+            <button>Todo</button>
+            <button>Petzify</button>
+            <button>Pañol</button>
+            <button>Codigo Azul</button>
+          </section>
+          <section className={styles.content}>  
+            <div className={styles.contentCard}>
+            {exjson.map(ex => (
+                      <div className={styles.exjson}> 
+                          <h2> {ex.name}</h2> 
+                          <img src={evento} alt="Logo Feria" />
+                          <span>{ex.imagen}</span>
+                          <p>{ex.info}</p>
+                      </div>   
+                      ))}  
             </div>
-          </section>
-          <section className={styles.slider}>
-          <img src={imagen} alt="Logo Expo" />
-          <h2>HECHO EN MERLO</h2>
-           <p>
-            Fuimos partícipes de la feria "Hecho en Merlo", en la cual presentamos nuestro nuevo proyecto, Petzify, una red social para dispositivos móviles. En esta feria conseguimos una gran cantidad de nuevos usuarios, junto con un bono para investigación de 150 mil pesos argentinos.
-           </p>
-          <section className={styles.has}>
-            <span>#Merlo</span>
-            <span>#HechoEnMerlo</span>
-            <span>#IntendenteVisita</span>
-            <span>#Petzify</span>
-          </section>
-          </section>
-        </div>
-        <div className={styles.eventosSec}>
-        <section className={styles.sliderInfo}>
-            <div className={styles.sliderSection}>
-             <Slider />
-            </div>
-          </section>
-          <section className={styles.slider}>
-          <img src={imagen} alt="Logo Expo" />
-          <h2>FERIA DE CIENCIAS Y TECNOLOGIAS NIVEL PROVINCIAL</h2>
-           <p>
-            Fuimos partícipes de la feria "Hecho en Merlo", en la cual presentamos nuestro nuevo proyecto, Petzify, una red social para dispositivos móviles. En esta feria conseguimos una gran cantidad de nuevos usuarios, junto con un bono para investigación de 150 mil pesos argentinos.
-           </p>
-          <section className={styles.has}>
-            <span>#Merlo</span>
-            <span>#HechoEnMerlo</span>
-            <span>#IntendenteVisita</span>
-            <span>#Petzify</span>
-          </section>
           </section>
         </div>
       </div>

@@ -32,7 +32,7 @@
     height: 3rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     border: solid 1px #ccc;
     box-shadow: 0px 0px 7px 0px black;
 }
@@ -64,7 +64,7 @@
 }
 
 .redesHeader{
-    width: 30%;
+    width: 20%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -113,7 +113,7 @@
 }
 
 .nav{
-    width: 70%;
+    width: 80%;
     height: 100%;
     display: flex;
     justify-content: space-around;

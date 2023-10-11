@@ -73,6 +73,7 @@
     color:white;
     font-size: 15px;
     transition: 500ms;
+    cursor: pointer; 
 }
 
 .infoPañol button:hover{
