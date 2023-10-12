@@ -1,22 +1,27 @@
 [
-    { 
-      "name": "HECHO EN MERLO",  
-      "info": "Fuimos partícipes de la feria Hecho en Merlo , en la cual presentamos nuestro nuevo proyecto, Petzify, una red social para dispositivos móviles. En esta feria conseguimos una gran cantidad de nuevos usuarios, junto con un bono para investigación de 150 mil pesos argentinos."
-    },
-    { 
-      "name": "E.E.S.T.N °5",
-      "info": "Expusimos en la Escuela Secundaria Técnica Número 5 de libertad, presentando nuestro sistema de gestión Pañol. Aunque esta exposición no obtuvo un premio, fue una experiencia valiosa que contribuyó a nuestro desarrollo como expositores."
-    },
-    { 
-        "name": "FERIA DE CIENCIAS Y TECNOLOGIAS", 
-        "info": "Fuimos partícipes en la feria regional de Ciencias y Tecnología, compitiendo con 140 proyectos. Nos destacamos al quedar entre los 9 proyectos seleccionados para la siguiente fase y aseguramos el primer lugar en nuestra categoría. Expusimos con entusiasmo nuestro proyecto, Petzify."
-      },
-      { 
-        "name": "FERIA DE CIENCIAS Y TECNOLOGIAS", 
-        "info": "Fuimos partícipes en la Feria Provincial de Ciencias y Tecnología. En esta ocasión, compitimos con más de 300 proyectos y viajamos a Mar del Plata para representar a la Región 8. Expusimos con entusiasmo nuestro proyecto, Petzify."
-      },
-      { 
-        "name": "E.E.S.T.N °5",
-        "info": "Expusimos como invitados en la Escuela Secundaria Técnica Número 5 de Libertad, presentando nuestro proyecto más reciente, Petzify. Compartimos nuestra experiencia frente a docentes y alumnos, quienes también exhibieron sus propios proyectos."
-     }
+  { 
+    "name": "HECHO EN MERLO",  
+    "imagen": "../assets/sistemas/codBlue.png",
+    "info": "Fuimos partícipes de la feria Hecho en Merlo , en la cual presentamos nuestro nuevo proyecto, Petzify, una red social para dispositivos móviles. En esta feria conseguimos una gran cantidad de nuevos usuarios, junto con un bono para investigación de 150 mil pesos argentinos."
+  },
+  { 
+    "name": "E.E.S.T.N °5",
+    "imagen": "../assets/sistemas/codBlue.png",
+    "info": "Expusimos en la Escuela Secundaria Técnica Número 5 de libertad, presentando nuestro sistema de gestión Pañol. Aunque esta exposición no obtuvo un premio, fue una experiencia valiosa que contribuyó a nuestro desarrollo como expositores."
+  },
+  { 
+    "name": "FERIA DE CIENCIAS Y TECNOLOGIAS", 
+    "imagen": "../assets/sistemas/codBlue.png",
+    "info": "Fuimos partícipes en la feria regional de Ciencias y Tecnología, compitiendo con 140 proyectos. Nos destacamos al quedar entre los 9 proyectos seleccionados para la siguiente fase y aseguramos el primer lugar en nuestra categoría. Expusimos con entusiasmo nuestro proyecto, Petzify."
+  },
+  { 
+    "name": "FERIA DE CIENCIAS Y TECNOLOGIAS", 
+    "imagen": "../assets/sistemas/codBlue.png",
+    "info": "Fuimos partícipes en la Feria Provincial de Ciencias y Tecnología. En esta ocasión, compitimos con más de 300 proyectos y viajamos a Mar del Plata para representar a la Región 8. Expusimos con entusiasmo nuestro proyecto, Petzify."
+  },
+  { 
+    "name": "E.E.S.T.N °5",
+    "imagen": "../assets/sistemas/codBlue.png",
+    "info": "Expusimos como invitados en la Escuela Secundaria Técnica Número 5 de Libertad, presentando nuestro proyecto más reciente, Petzify. Compartimos nuestra experiencia frente a docentes y alumnos, quienes también exhibieron sus propios proyectos."
+  }
 ]

@@ -29,18 +29,17 @@ function Eventos() {
         </div> 
         <div className={styles.cardEvents}>
           <section className={styles.nabvar}>
-            <button>Todo</button>
+            <button>Todo</button> 
             <button>Petzify</button>
             <button>Pañol</button>
             <button>Codigo Azul</button>
-          </section>
+          </section> 
           <section className={styles.content}>  
             <div className={styles.contentCard}>
             {exjson.map(ex => (
                       <div className={styles.exjson}> 
                           <h2> {ex.name}</h2> 
-                          <img src={evento} alt="Logo Feria" />
-                          <span>{ex.imagen}</span>
+                          {ex.imagen && <img alt="Expo" src={ex.imagen} />}
                           <p>{ex.info}</p>
                       </div>   
                       ))}  
