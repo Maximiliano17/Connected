@@ -1,27 +1,32 @@
-[
+ [
   { 
+    "id": "1",
     "name": "HECHO EN MERLO",  
-    "imagen": "../assets/sistemas/codBlue.png",
+    "imagen": "../assets/img/sobreMiMaxi.jpeg",
     "info": "Fuimos partícipes de la feria Hecho en Merlo , en la cual presentamos nuestro nuevo proyecto, Petzify, una red social para dispositivos móviles. En esta feria conseguimos una gran cantidad de nuevos usuarios, junto con un bono para investigación de 150 mil pesos argentinos."
-  },
+  }, 
   { 
+    "id": "2",
     "name": "E.E.S.T.N °5",
-    "imagen": "../assets/sistemas/codBlue.png",
+    "imagen": "../assets/sistemas/eventoConnected.jpeg",
     "info": "Expusimos en la Escuela Secundaria Técnica Número 5 de libertad, presentando nuestro sistema de gestión Pañol. Aunque esta exposición no obtuvo un premio, fue una experiencia valiosa que contribuyó a nuestro desarrollo como expositores."
   },
   { 
+    "id": "3",
     "name": "FERIA DE CIENCIAS Y TECNOLOGIAS", 
-    "imagen": "../assets/sistemas/codBlue.png",
+    "imagen": "../assets/banners/eventosFon.jpeg",
     "info": "Fuimos partícipes en la feria regional de Ciencias y Tecnología, compitiendo con 140 proyectos. Nos destacamos al quedar entre los 9 proyectos seleccionados para la siguiente fase y aseguramos el primer lugar en nuestra categoría. Expusimos con entusiasmo nuestro proyecto, Petzify."
   },
   { 
+    "id": "4",
     "name": "FERIA DE CIENCIAS Y TECNOLOGIAS", 
-    "imagen": "../assets/sistemas/codBlue.png",
+    "imagen": "../assets/img/sobreMiMaxi3.jpeg",
     "info": "Fuimos partícipes en la Feria Provincial de Ciencias y Tecnología. En esta ocasión, compitimos con más de 300 proyectos y viajamos a Mar del Plata para representar a la Región 8. Expusimos con entusiasmo nuestro proyecto, Petzify."
   },
   { 
+    "id": "5",
     "name": "E.E.S.T.N °5",
-    "imagen": "../assets/sistemas/codBlue.png",
+    "imagen": "../assets/img/sobreMiMaxi2.jpeg",
     "info": "Expusimos como invitados en la Escuela Secundaria Técnica Número 5 de Libertad, presentando nuestro proyecto más reciente, Petzify. Compartimos nuestra experiencia frente a docentes y alumnos, quienes también exhibieron sus propios proyectos."
   }
 ]

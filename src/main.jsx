@@ -5,6 +5,7 @@ import Pañol from "./pages/Pañol.jsx"
 import Petzify from "./pages/Petzify.jsx"
 import CodBlue from "./pages/CodBlue.jsx"
 import Eventos from "./pages/Eventos.jsx"
+import Robotica from "./pages/Robotica.jsx"
 // Imports
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -53,6 +54,12 @@ const router = createBrowserRouter([
     path: "/eventos",
     element: (
         <Eventos />
+    ),
+  },
+  {
+    path: "/robotica",
+    element: (
+        <Robotica />
     ),
   },
 ]);

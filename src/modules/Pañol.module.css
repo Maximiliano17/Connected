@@ -9,7 +9,7 @@
 /*ContainerPañol*/
 .pañolContent{
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 7rem);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,6 +61,7 @@
     flex-direction: column;
     gap: 2rem;
     text-align: justify;
+    line-height: 1.5;
     color: rgb(90, 85, 85);
 }
 
@@ -91,7 +92,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-}
+} 
 
 .cardPañol{
     width: 25%;

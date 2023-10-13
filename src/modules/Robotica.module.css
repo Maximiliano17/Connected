@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*roboticaConten*/
+.roboticaConten{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.robotHme{
+    width: 100%;
+    height: calc(100vh - 7rem);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+}
+
+.imagenRobot{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenRobot img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.infoRobot{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.infoRobot h1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: #002858; 
+}
+
+.infoRobot p{
+    width: 90%; 
+    height: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: justify;
+    line-height: 1.5;
+    color: rgb(90, 85, 85);
+}
+
+.infoRobot button{
+    width: 50%;
+    height: 2.5rem;
+    border-style:none;
+    background: #fd5308;
+    border-radius: 20px;
+    color:white;
+    font-size: 15px;
+    transition: 500ms;
+    cursor: pointer; 
+}
+
+.infoRobot button:hover{
+    background: white;
+    color:#fd5308;
+    border:solid 2px #fd5308;
+    transition: 500ms;
+}
+
+/*robotPetzify*/
+.robotPetzify{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(240, 239, 239);
+}
+
+.infoPetzify{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardPet{
+    width: 320px;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px gray; 
+}
+
+.cardPet h2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #002858;
+}
+
+.cardPet p{ 
+    width: 80%;
+    height: fit-content;
+    text-align: justify;
+    line-height: 1.5;
+    color: rgb(90, 85, 85);
+}
+
+.cardPet img{
+    width: 90%;
+    height: 50%;
+    border: SOLID 1;
+    object-fit: cover;
+}

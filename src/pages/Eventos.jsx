@@ -1,12 +1,10 @@
 //Components
 import Header from "../components/Header"
-import Slider from "../components/Slider"
 //Styles
 import styles from "../modules/Eventos.module.css"
 //Imagenes
-import imagen from "../assets/img/sobreMiMaxi.jpeg"
 import eventoBanner from "../assets/banners/eventoJuan.jpeg"
-import evento from "../assets/sistemas/eventoConnected.jpeg"
+import maxi from "../assets/sistemas/Crear Areas.jpeg"
 //Json
 import exjson from "../json/eventos.json"
 function Eventos() {
@@ -22,7 +20,7 @@ function Eventos() {
          {/*Info Evento*/}
           <section className={styles.eventInfo}>
             <h1> Eventos</h1>
-            <p>
+            <p> 
              En Connected World, participamos activamente en diversos eventos, con el objetivo de exhibir ante el público lo mejor de nuestros sistemas y aplicaciones. A continuación, destacaremos algunas de nuestras actuaciones más destacadas en ferias, eventos y exposiciones.
             </p>    
           </section>
@@ -37,9 +35,9 @@ function Eventos() {
           <section className={styles.content}>  
             <div className={styles.contentCard}>
             {exjson.map(ex => (
-                      <div className={styles.exjson}> 
+                      <div className={styles.exjson}>  
                           <h2> {ex.name}</h2> 
-                          {ex.imagen && <img alt="Expo" src={ex.imagen} />}
+                         {ex.imagen && <img alt="Expo" src={ex.imagen} />}
                           <p>{ex.info}</p>
                       </div>   
                       ))}  
