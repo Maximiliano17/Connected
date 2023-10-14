@@ -29,33 +29,33 @@
 }
 
 .info{
-    width: 60%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 1rem;
 }
 
 .info h1{
-    width: 100%;
+    width: 90%;
     height: 10%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     font-size: 35px;
-    color: #002858; 
+    color: #002858;
 }
 
 .info p{
     width: 90%;
     height: fit-content;
-    padding: 20px;
     display: flex;
     justify-content: center; 
     align-items: center;
     color: rgb(90, 85, 85);
-    text-align: justify;
+    text-align: start;
     line-height: 1.5;
 }
 

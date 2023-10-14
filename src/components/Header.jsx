@@ -69,6 +69,9 @@ function Header() {
               <Link to={`/Sistemas`} className={styles.nav_item_res}> 
                 Sistemas 
               </Link> 
+              <Link to={`/Robotica`} className={styles.nav_item_res}>
+                Robotica 
+              </Link>
               <Link to={`/Taller`} className={styles.nav_item_res}>
                 Pañol 
               </Link>
@@ -77,9 +80,6 @@ function Header() {
               </Link>
               <Link to={`/Medical`} className={styles.nav_item_res}>
                 Codigo azul 
-              </Link>
-              <Link to={`/Robotica`} className={styles.nav_item_res}>
-                Robotica 
               </Link>
               <button className={styles.botonmodal_res} onClick={closeModal}>
                 X
@@ -108,6 +108,9 @@ function Header() {
             <Link to={`/Sistemas`} className={styles.nav_item}> 
               Sistemas 
             </Link>
+            <Link to={`/Robotica`} className={styles.nav_item}>
+              Robotica 
+            </Link>
             <Link to={`/taller`} className={styles.nav_item}>
               Pañol 
             </Link>
@@ -116,9 +119,6 @@ function Header() {
             </Link>
             <Link to={`/medical`} className={styles.nav_item}>
               Codigo azul 
-            </Link>
-            <Link to={`/Robotica`} className={styles.nav_item}>
-              Robotica 
             </Link>
         </nav> 
          <div className={styles.redesHeader}>
