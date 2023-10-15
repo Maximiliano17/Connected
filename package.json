@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@itseasy21/react-elastic-carousel": "^0.12.3",
-    "react": "^18.2.0",
+    "react": "^18.2.0", 
     "react-dom": "^18.2.0",
     "react-modal": "^3.16.1",
     "react-player": "^2.13.0",

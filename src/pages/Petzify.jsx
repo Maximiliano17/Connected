@@ -1,5 +1,6 @@
 //Components
 import Header from "../components/Header"
+import Slider from "../components/Slider"
 //Styles
 import styles from "../modules/Petzify.module.css"
 //Imagenges
@@ -10,7 +11,7 @@ import perfiles from "../assets/icons/crearPerfiles.png"
 import fotos from "../assets/icons/subirFoto.png"
 import celular from "../assets/sistemas/petzifyimg.png"
 
-function Petzify(){ 
+function Petzify(){  
     return(
         <>
         <Header/>
@@ -50,6 +51,7 @@ function Petzify(){
             </section>
          </div>
        </div>
+       <Slider />
         </>
     )
 }

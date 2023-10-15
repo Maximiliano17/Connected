@@ -183,15 +183,25 @@
     background: white;
 }
 
-.contentRobots img{
+.sliderHoracio{
     width: 40%;
     height: 90%;
-    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.sliderCreadores{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .infoBot{
     width: 50%;
-    height: 90%;
+    height: 90%; 
     display: flex;
     justify-content: center;
     align-items: center;

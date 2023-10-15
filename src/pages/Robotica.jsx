@@ -1,5 +1,7 @@
 //Components
 import Header from "../components/Header"
+import Slider from "../components/Sliders/SliderRobotica" 
+import SliderCreadores from "../components/Sliders/SliderCreadores" 
 //Styles
 import styles from "../modules/Robotica.module.css"
 //Imagenes
@@ -7,8 +9,7 @@ import robotEvent from "../assets/robotica/hechoRobotica.jpeg"
 import robotPetzify from "../assets/robotica/petzifyRobot.jpeg"
 import construccion from "../assets/robotica/construccion.jpeg"
 import competencia from "../assets/robotica/competencia.png"
-import horacio from "../assets/robotica/horacioBot.jpeg"
-import creador from "../assets/robotica/horacio.jpeg"
+
 function Robotica(){
    return(
     <>
@@ -53,7 +54,9 @@ function Robotica(){
        <div className={styles.robotsAfiliados}>
          <h2>Robots Afiliados</h2>
          <section className={styles.contentRobots}>
-          <img src={competencia} />
+          <div className={styles.sliderHoracio}>
+           <Slider />
+          </div>
           <div className={styles.infoBot}>
             <span>Horacio</span>
             <p>
@@ -68,7 +71,9 @@ function Robotica(){
             Horacio, nuestro excepcional robot, lleva con orgullo en su carcaza los logos representativos de nuestros proyectos más destacados. Ha participado con éxito en diversas competiciones, demostrando su nivel excepcional de habilidad y rendimiento. Horacio es más que una máquina; es un testimonio tangible de los logros sobresalientes que hemos alcanzado en el campo de la robótica.
             </p>
          </div>
-          <img src={creador} />
+         <div className={styles.sliderCreadores}>
+           <SliderCreadores />
+          </div>
          </section>
        </div>
      </div> 
