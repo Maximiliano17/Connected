@@ -91,7 +91,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: white;
+    background: rgb(240, 239, 239);
 }
 
 .nabvar button{
@@ -132,7 +132,7 @@
     place-items: center;
     grid-gap:2rem;
     padding: 20px;
-    background: linear-gradient(to bottom, #e2e0e0, #002858);
+    background: rgb(240, 239, 239);
 }
 
 .exjson{

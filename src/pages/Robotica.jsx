@@ -7,6 +7,8 @@ import robotEvent from "../assets/robotica/hechoRobotica.jpeg"
 import robotPetzify from "../assets/robotica/petzifyRobot.jpeg"
 import construccion from "../assets/robotica/construccion.jpeg"
 import competencia from "../assets/robotica/competencia.png"
+import horacio from "../assets/robotica/horacioBot.jpeg"
+import creador from "../assets/robotica/horacio.jpeg"
 function Robotica(){
    return(
     <>
@@ -18,10 +20,9 @@ function Robotica(){
            </section>
            <section className={styles.infoRobot}>
             <p>
-            <h1>Robotica</h1>
-            En Connected, nos destacamos en tecnología e innovación, demostrándolo con nuestra participación activa en eventos de robótica. Formamos parte esencial de la comunidad robótica, explorando, aprendiendo y contribuyendo al apasionante mundo de la automatización e inteligencia artificial.
+             <h1>Robotica</h1>
+              En Connected, nos destacamos en tecnología e innovación, demostrándolo con nuestra participación activa en eventos de robótica. Formamos parte esencial de la comunidad robótica, explorando, aprendiendo y contribuyendo al apasionante mundo de la automatización e inteligencia artificial.
             </p>
-            <button>Conseguir</button>
            </section> 
        </div>
        <section className={styles.robotPetzify}>
@@ -36,7 +37,7 @@ function Robotica(){
          <article className={styles.cardPet}>
           <img src={construccion} alt="Logo Pañol" />
           <h2>Construccion</h2>
-           <p>
+            <p>
             Contamos con unos diseños de gran calidad mostrando igual esfuerso en que el robot sea completamente optumo en su funcionamiento, como que lo sea a nivel estietico.
            </p>
          </article>
@@ -49,6 +50,27 @@ function Robotica(){
          </article>
         </div>
        </section>
+       <div className={styles.robotsAfiliados}>
+         <h2>Robots Afiliados</h2>
+         <section className={styles.contentRobots}>
+          <img src={competencia} />
+          <div className={styles.infoBot}>
+            <span>Horacio</span>
+            <p>
+             Horacio, nuestro excepcional robot, lleva con orgullo en su carcaza los logos representativos de nuestros proyectos más destacados. Ha participado con éxito en diversas competiciones, demostrando su nivel excepcional de habilidad y rendimiento. Horacio es más que una máquina; es un testimonio tangible de los logros sobresalientes que hemos alcanzado en el campo de la robótica.
+            </p>
+          </div>
+         </section>
+         <section className={styles.contentRobots}>
+         <div className={styles.infoBot}>
+            <span>Creeadores</span>
+            <p>
+            Horacio, nuestro excepcional robot, lleva con orgullo en su carcaza los logos representativos de nuestros proyectos más destacados. Ha participado con éxito en diversas competiciones, demostrando su nivel excepcional de habilidad y rendimiento. Horacio es más que una máquina; es un testimonio tangible de los logros sobresalientes que hemos alcanzado en el campo de la robótica.
+            </p>
+         </div>
+          <img src={creador} />
+         </section>
+       </div>
      </div> 
     </>
    )
