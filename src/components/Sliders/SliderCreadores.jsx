@@ -2,6 +2,7 @@
 import horacio from "../../assets/robotica/horacio.jpeg"
 import hechohoracio from "../../assets/robotica/hechoRobotica.jpeg"
 import mamani from "../../assets/robotica/mamani.jpeg"
+import mamaniEvent from "../../assets/robotica/mamanievent.jpeg"
 //Carrusel
 import Carousel from '@itseasy21/react-elastic-carousel';
 //Styles
@@ -43,10 +44,7 @@ function Slider() {
           <img src={mamani} alt="hola" />
         </div>
         <div className={styles.carruselCreadores}>
-          <img src={horacio} alt="hola" />
-        </div>
-        <div className={styles.carruselCreadores}>
-          <img src={horacio} alt="hola" />
+          <img src={mamaniEvent} alt="hola" />
         </div>
       </Carousel>
     </>

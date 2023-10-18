@@ -11,13 +11,20 @@ import perfiles from "../assets/icons/crearPerfiles.png"
 import fotos from "../assets/icons/subirFoto.png"
 import celular from "../assets/sistemas/petzifyimg.png"
 
-function Petzify(){  
+function Petzify(){   
     return(
         <>
         <Header/>
          <div className={styles.petzifyContent}>
            <section className={styles.homePet}> 
-           <img src={celular} alt="Celular" />
+            <img src={celular} alt="Celular" />
+            <section className={styles.infoPetzify}>
+                <p>
+                <h1>Petzify</h1>
+                Pañol es un proyecto que ofrece una solución completa para la gestión de herramientas en talleres, permitiendo hacer pedidos de forma rápida y eficiente, y controlando el stock de manera efectiva. Es una herramienta muy útil para mejorar la productividad en talleres y reducir el tiempo que se dedica a la gestión de herramientas.
+                </p>
+                <button>Donwload</button>
+           </section>
            </section>
          <div className={styles.caracteristicasApp}>
             <section className={styles.imagenMano}>
@@ -51,7 +58,6 @@ function Petzify(){
             </section>
          </div>
        </div>
-       <Slider />
         </>
     )
 }

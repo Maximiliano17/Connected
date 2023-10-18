@@ -25,7 +25,7 @@ function pañol(){
              Pañol es un proyecto que ofrece una solución completa para la gestión de herramientas en talleres, permitiendo hacer pedidos de forma rápida y eficiente, y controlando el stock de manera efectiva. Es una herramienta muy útil para mejorar la productividad en talleres y reducir el tiempo que se dedica a la gestión de herramientas.
             </p>
             <button>Conseguir</button>
-           </section>
+           </section> 
          </div>
          <div className={styles.beneficiosPañol}>
             <article className={styles.cardPañol}>

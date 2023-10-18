@@ -223,3 +223,51 @@
     line-height: 1.5;
     color: rgb(90, 85, 85);
 }
+
+@media(max-width: 1200px){
+
+     .robotPetzify{
+        height: fit-content;
+        padding: 20px;
+     }
+
+     .infoPetzify{
+        gap: 1rem;
+        flex-direction: column;
+     }
+     .cardPet{
+        width: 320px;
+        height: 500px;
+     }
+}
+
+@media(max-width: 1000px){
+  
+    .robotHme{
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .imagenRobot{
+        width: 100%;
+        height: 40%;
+    }
+
+    .imagenRobot img{
+        width: 320px;
+    }
+
+    .infoRobot{
+        width: 100%;
+        height: 40%;
+    }
+
+    .infoRobot h1{
+        width: 320px;
+    }
+
+    .infoRobot p{
+        width: 320px;
+    }
+
+}

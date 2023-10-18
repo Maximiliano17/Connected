@@ -1,6 +1,8 @@
 //Horacio Fotos
 import Horacio1 from "../../assets/robotica/competencia.png"
 import Horacio2 from "../../assets/robotica/horacioBot.jpeg"
+import Horacio3 from "../../assets/robotica/horacio2.jpeg"
+import Horacio4 from "../../assets/robotica/horacio3.jpeg"
 //Carrusel
 import Carousel from '@itseasy21/react-elastic-carousel';
 //Styles
@@ -39,13 +41,10 @@ function Slider() {
           <img src={Horacio2} alt="hola" />
         </div>
         <div className={styles.carrusel}>
-          <img src={Horacio1} alt="hola" />
+          <img src={Horacio3} alt="hola" />
         </div>
         <div className={styles.carrusel}>
-          <img src={Horacio2} alt="hola" />
-        </div>
-        <div className={styles.carrusel}>
-          <img src={Horacio1} alt="hola" />
+          <img src={Horacio4} alt="hola" />
         </div>
       </Carousel>
     </>
