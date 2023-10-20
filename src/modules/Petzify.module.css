@@ -247,14 +247,24 @@
         grid-template-rows: 200px 200px 200px 200px;
     }
 
+    .institucionesAdd{
+        width: 100%;
+        height: fit-content;
+        padding: 20px;
+    }
+
+    .institucionesAdd h2{
+        width: 100%;
+    }
+
     .instituciones{
-        width: 90%;
+        width: 100%;
         height: fit-content;
         padding: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow-x: scroll;
+        flex-direction: column;
     }
 
     .instituciones img{
