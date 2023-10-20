@@ -175,7 +175,7 @@
 }
 
 .contentRobots{
-    width: 90%;
+    width: 100%;
     height: calc(80vh - 70px);
     display: flex;
     justify-content: space-around;
@@ -235,34 +235,40 @@
         gap: 1rem;
         flex-direction: column;
      }
+
      .cardPet{
         width: 320px;
         height: 500px;
      }
+
      /*contentRobots*/
      .contentRobots{
+        width: 100%;
         height: fit-content;
         padding: 50px;
         flex-direction: column;
      } 
+     
      .sliderHoracio{
-        width: 320px;
+        width: 100%;
      }
 
      .sliderCreadores{
+        width: 100%; 
+     }
+
+     .infoBot{ 
+        width: 100%;
+        height: fit-content;
+     }
+
+     .infoBot span{
         width: 100%;
      }
 
-     .infoBot{
+     .infoBot p{
         width: 100%;
         height: fit-content;
-        padding: 20px;
-        gap: 2rem;
-     }
-     .infoBot p{
-        width: 90%;
-        height: fit-content;
-        padding: 20px;
      }
 }
 

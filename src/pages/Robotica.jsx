@@ -66,7 +66,7 @@ function Robotica(){
          </section>
          <section className={styles.contentRobots}>
          <div className={styles.infoBot}>
-            <span>Creeadores</span>
+            <span>Creadores</span>
             <p>
             Horacio, nuestro excepcional robot, lleva con orgullo en su carcaza los logos representativos de nuestros proyectos más destacados. Ha participado con éxito en diversas competiciones, demostrando su nivel excepcional de habilidad y rendimiento. Horacio es más que una máquina; es un testimonio tangible de los logros sobresalientes que hemos alcanzado en el campo de la robótica.
             </p>
