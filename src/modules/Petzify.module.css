@@ -155,7 +155,7 @@
 .cardItem img{
     width: 70px;
     height: 70px;
-    object-fit: cover;
+    object-fit: cover; 
     transform: translateZ(20px);
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
 }
@@ -180,6 +180,7 @@
     color:#fd5308;
     font-size: 30px;
     transition: 500ms;
+    border: dashed 1px #ccc;
 }
 
 .institucionesAdd h2:hover{
@@ -253,7 +254,7 @@
         padding: 20px;
     }
 
-    .institucionesAdd h2{
+    .institucionesAdd h2{ 
         width: 100%;
     }
 

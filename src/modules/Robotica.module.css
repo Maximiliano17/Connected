@@ -164,6 +164,7 @@
     color:#fd5308;
     font-size: 30px;
     transition: 500ms;
+    border: dashed 1px #ccc;
 }
 
 .robotsAfiliados h2:hover{
