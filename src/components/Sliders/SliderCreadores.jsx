@@ -33,7 +33,7 @@ function Slider() {
       <Carousel
        
       >
-        {/* Contenido del carrusel */}
+        {/* Contenido del carrusel */} 
         <div className={styles.carruselCreadores}>
           <img src={horacio} alt="hola" />
         </div>

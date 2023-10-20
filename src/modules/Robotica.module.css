@@ -241,13 +241,28 @@
      }
      /*contentRobots*/
      .contentRobots{
+        height: fit-content;
+        padding: 50px;
         flex-direction: column;
-     }
+     } 
      .sliderHoracio{
         width: 320px;
      }
+
+     .sliderCreadores{
+        width: 100%;
+     }
+
      .infoBot{
         width: 100%;
+        height: fit-content;
+        padding: 20px;
+        gap: 2rem;
+     }
+     .infoBot p{
+        width: 90%;
+        height: fit-content;
+        padding: 20px;
      }
 }
 

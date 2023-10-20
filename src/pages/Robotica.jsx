@@ -2,7 +2,7 @@
 import Header from "../components/Header"
 import Slider from "../components/Sliders/SliderRobotica" 
 import SliderCreadores from "../components/Sliders/SliderCreadores" 
-//Styles
+//Styles 
 import styles from "../modules/Robotica.module.css"  
 //Imagenes
 import robotEvent from "../assets/robotica/hechoRobotica.jpeg"
