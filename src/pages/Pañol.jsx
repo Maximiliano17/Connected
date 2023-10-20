@@ -3,7 +3,7 @@ import styles from "../modules/Pañol.module.css"
 //Components
 import Header from "../components/Header"
 //Imagenes
-import pañolLogo from "../assets/sistemas/pañolimg.png"
+import pañolLogo from "../assets/sistemas/pañolImg.png"
 import icon1 from "../assets/sistemas/1.png"
 import icon2 from "../assets/sistemas/2.png"
 import icon3 from "../assets/sistemas/3.png"

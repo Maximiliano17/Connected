@@ -21,7 +21,7 @@ function Petzify(){
             <section className={styles.infoPetzify}>
                 <p>
                 <h1>Petzify</h1>
-                Pañol es un proyecto que ofrece una solución completa para la gestión de herramientas en talleres, permitiendo hacer pedidos de forma rápida y eficiente, y controlando el stock de manera efectiva. Es una herramienta muy útil para mejorar la productividad en talleres y reducir el tiempo que se dedica a la gestión de herramientas.
+                Petzify es una red social especializada en animales domésticos que proporciona a los dueños de mascotas un entorno dedicado a compartir sus experiencias con sus compañeros peludos. Además, permitiremos a los usuarios publicar sobre animales disponibles para adopción y solicitar donaciones para facturas médicas de sus mascotas.
                 </p>
                 <button>Donwload</button>
            </section>

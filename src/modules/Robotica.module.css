@@ -239,6 +239,16 @@
         width: 320px;
         height: 500px;
      }
+     /*contentRobots*/
+     .contentRobots{
+        flex-direction: column;
+     }
+     .sliderHoracio{
+        width: 320px;
+     }
+     .infoBot{
+        width: 100%;
+     }
 }
 
 @media(max-width: 1000px){
