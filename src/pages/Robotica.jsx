@@ -52,7 +52,7 @@ function Robotica(){
         </div>
        </section>
        <div className={styles.robotsAfiliados}>
-         <h2>Robots Afiliados</h2>
+         <h2>Robots Adheridos</h2>
          <section className={styles.contentRobots}>
           <div className={styles.sliderHoracio}>
            <Slider />

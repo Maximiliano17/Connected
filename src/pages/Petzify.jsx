@@ -8,15 +8,19 @@ import petshop from "../assets/icons/petshop.png"
 import adoptar from "../assets/icons/adoptar.png"
 import perfiles from "../assets/icons/crearPerfiles.png"
 import fotos from "../assets/icons/subirFoto.png"
-import celular from "../assets/sistemas/petzifyimg.png"
-
+import petLogo from "../assets/sistemas/petLogo.jpeg"
+//Logos Institucion
+import gato from "../assets/sistemas/gato.png"
+import cats from "../assets/sistemas/Cats.png"
+import dog from "../assets/sistemas/dogs.png"
+import eco from "../assets/sistemas/eco.jpeg"
 function Petzify(){   
     return(
         <>
         <Header/>
          <div className={styles.petzifyContent}>
            <section className={styles.homePet}> 
-            <img src={celular} alt="Celular" />
+            <img src={petLogo} alt="Celular" />
             <section className={styles.infoPetzify}>
                 <p>
                 <h1>Petzify</h1>
@@ -55,6 +59,15 @@ function Petzify(){
                  </p>
                 </article>
             </section>
+         </div> 
+         <div className={styles.institucionesAdd}>
+           <h2>Instituciones add</h2>
+           <section className={styles.instituciones}>
+            <img src={eco} />
+            <img src={gato} />
+            <img src={dog} />
+            <img src={cats} />
+           </section>
          </div>
        </div>
         </>
