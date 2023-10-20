@@ -1,10 +1,8 @@
 //Components
 import Header from "../components/Header"
-import Slider from "../components/Slider"
 //Styles
 import  styles from "../modules/CodBlue.module.css"
 //Imagenes
-import card from "../assets/sistemas/cardCel.png"
 import compuSis from "../assets/sistemas/codBlue.png"
 import crearAreas from "../assets/sistemas/Crear Areas.jpeg"
 import asignarPersonal from "../assets/sistemas/Asignar Personal.jpeg"

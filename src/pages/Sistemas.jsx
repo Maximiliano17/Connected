@@ -1,6 +1,5 @@
 //Components
 import Header from "../components/Header"
-import PagDis from "../components/PaginasDis"
 //Styles
 import  styles from "../modules/Sistemas.module.css"
 //Imagenes

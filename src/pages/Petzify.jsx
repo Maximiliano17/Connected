@@ -1,6 +1,5 @@
 //Components
 import Header from "../components/Header"
-import Slider from "../components/Slider"
 //Styles
 import styles from "../modules/Petzify.module.css"
 //Imagenges

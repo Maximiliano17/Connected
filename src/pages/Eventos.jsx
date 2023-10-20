@@ -4,7 +4,6 @@ import Header from "../components/Header"
 import styles from "../modules/Eventos.module.css"
 //Imagenes
 import eventoBanner from "../assets/banners/eventoJuan.jpeg"
-import maxi from "../assets/sistemas/Crear Areas.jpeg"
 //Json
 import exjson from "../json/eventos.json"
 import { useState } from "react"
