@@ -221,11 +221,21 @@
 
 .tituloComunidad{
     width: 100%;
-    height: 10%;
+    height: 15%;
     display: flex;
     justify-content: start;
     align-items: center;
     padding-left: 10%;
+}
+
+.contenedorVistas{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #002858;
 }
 
 .tituloComunidad p{
@@ -239,7 +249,7 @@
 
 .content{
     width: 100%;
-    height: calc(100vh - 15%);
+    height: calc(100vh - 10%);
     display: flex;
     justify-content: space-around;
     align-items: center;
