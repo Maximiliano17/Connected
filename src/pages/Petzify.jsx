@@ -77,7 +77,7 @@ function Petzify(){
                 <div className={styles.infoPet}>
                 <span className={styles.titulo}>Buscador de usuarios.</span>
                 <p>
-                ¡Novedad en nuestra app de red social! Introducimos una emocionante característica: el 'Buscador de Usuarios'. Ahora, encontrar y conectar con amigos y personas afines es más fácil que nunca. Simplemente utiliza esta función para buscar usuarios por nombre, intereses o ubicación. Amplía tu círculo social y descubre nuevas amistades con solo unos clics. ¡Es hora de conectar como nunca antes! ¡Prueba el buscador de usuarios hoy mismo y descubre quién está en nuestra comunidad!
+                 ¡Novedad en nuestra app de red social! Introducimos una emocionante característica: el 'Buscador de Usuarios'. Ahora, encontrar y conectar con amigos y personas afines es más fácil que nunca. Simplemente utiliza esta función para buscar usuarios por nombre, intereses o ubicación. Amplía tu círculo social y descubre nuevas amistades con solo unos clics. ¡Es hora de conectar como nunca antes! ¡Prueba el buscador de usuarios hoy mismo y descubre quién está en nuestra comunidad!
                 </p>
                   <a target="_Blanck" href="https://petzify.vercel.app/">Ver mas</a>
               </div>

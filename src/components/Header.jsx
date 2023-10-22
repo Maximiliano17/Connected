@@ -71,7 +71,7 @@ function Header() {
                 Sistemas 
               </Link> 
               <Link to={`/Robotica`} className={styles.nav_item_res}>
-                Robotica 
+                Robótica 
               </Link>
               <Link to={`/Taller`} className={styles.nav_item_res}>
                 Pañol 
@@ -109,7 +109,7 @@ function Header() {
               Sistemas 
             </Link>
             <Link to={`/Robotica`} className={styles.nav_item}>
-              Robotica 
+             Robótica 
             </Link>
             <Link to={`/taller`} className={styles.nav_item}>
               Pañol 

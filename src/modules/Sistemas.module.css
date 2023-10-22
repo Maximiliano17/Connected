@@ -40,8 +40,8 @@
 }
 
 .infoSis p{
-  width: 90%; 
-  height: 50%;
+  width: 100%; 
+  height: 60%;
   font-size: 20px;
   display: flex;
   justify-content: center;
@@ -72,15 +72,108 @@
   transition: 500ms;
 }
 
+/*Nuestros servicios*/
+
 .sistemasDisponibles{
-  width: 100%;
+  width: 100%; 
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.tituloComunidad{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.tituloComunidad p{
+  width: 300px;
+  height: fit-content;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background: #002858;
+}
+
+.nuestrosServicios{
+  width: 100%; 
+  height: calc(100vh - 15%);
+  display: grid;
+  grid-template-columns: repeat(3 , 350px);
+  grid-template-rows: 220px 220px;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  grid-gap: 2.5rem;
+}
+
+.opciones{
+  width: 350px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.fotoOp{
+  width: 25%;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20%;
+}
+
+.fotoOp img{
+  width: 70%;
+  object-fit: cover;
+}
+
+.infoOp{
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.infoOp h2{
+  width: 90%;
+  color: #002858;
+}
+
+.infoOp p{
+  width: 90%;
+  line-height: 1.5;
+  color: rgb(90, 85, 85);
 }
 
 @media(max-width: 1300px){
+
+  /*Sistemas*/
+  .nuestrosServicios{
+    width: 100%; 
+    height: calc(100vh - 15%);
+    display: grid;
+    grid-template-columns: repeat(2 , 350px);
+    grid-template-rows: 220px 220px 220px;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    grid-gap: 2.5rem;
+  }
 
   .sistemasContent{
     height: fit-content;
@@ -91,6 +184,24 @@
   .infoSis{
     width: 500px;
   }
+}
+
+@media(max-width: 850px){
+   /*Sistemas*/
+   .nuestrosServicios{
+    display: grid;
+    grid-template-columns: repeat(1 , 320px);
+    grid-template-rows: 220px 220px 220px 220px 220px;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    grid-gap: 2.5rem;
+  }
+
+  .opciones{
+    width: 320px;
+  }
+
 }
 
 @media(max-width: 720px){
@@ -107,4 +218,5 @@
    .infoSis{
     width: 320px;
    }
+   
 }

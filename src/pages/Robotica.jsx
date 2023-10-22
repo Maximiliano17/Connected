@@ -21,7 +21,7 @@ function Robotica(){
            </section>
            <section className={styles.infoRobot}>
             <p>
-             <h1>Robotica</h1>
+             <h1>Robótica</h1>
               En Connected, nos destacamos en tecnología e innovación, demostrándolo con nuestra participación activa en eventos de robótica. Formamos parte esencial de la comunidad robótica, explorando, aprendiendo y contribuyendo al apasionante mundo de la automatización e inteligencia artificial.
             </p>
            </section> 
