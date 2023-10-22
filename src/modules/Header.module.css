@@ -42,11 +42,15 @@
 }
  
 .tituloHeader{
-    width: 30%;
+    width: 300px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.tituloHeader img{
+    object-fit: contain;
 }
 
 .tituloHeader h1{

@@ -6,7 +6,7 @@ function SobreNosotros(){
     return(
         <>
          <div className={styles.sobreNosotros}>
-          <div className={styles.imagenSobre}>
+          <div className={styles.imagenSobre}> 
              <img src={sobreImagen} alt="Logo Sobre nosotros" />
           </div>
           <section className={styles.info}>

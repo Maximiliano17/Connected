@@ -91,7 +91,6 @@ function Header() {
           <div className={styles.tituloHeader}>
            <img src={logo} alt="Logo" />
           </div>
-         
           <div className={styles.bottonContact}>
             <button>
               Contact
