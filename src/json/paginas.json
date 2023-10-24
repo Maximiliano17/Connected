@@ -1,0 +1,16 @@
+[
+    { 
+      "category": "web",
+      "imagen": "../assets/sistemas/pag.png",
+      "titulo": "Pagina De Empresa Electronica.",
+      "info": "Una pagina de promocion para una empresa de Electronica.",
+      "redes": "https://eestn5centroestudiantil.000webhostapp.com/"
+    },
+    {
+        "category": "app",
+        "imagen": "../assets/icons/adoptar.png",
+        "titulo": "Aplicacion móvil.",
+        "info": "Una pagina de promocion para una empresa de Electronica.",
+        "redes": "https://eestn5centroestudiantil.000webhostapp.com/"
+    }
+]

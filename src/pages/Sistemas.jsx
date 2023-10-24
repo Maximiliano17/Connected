@@ -9,7 +9,9 @@ import sistema from "../assets/sistemasCard/sistemas.png"
 import escritoro from "../assets/sistemasCard/escritorio.png"
 import tienda from "../assets/sistemasCard/tienda.png"
 import robotica from "../assets/sistemasCard/robot.png"
+import centro from "../assets/sistemas/pag.jpeg"
 function Sistemas() {
+
     return (  
       <> 
       <Header />
@@ -37,7 +39,7 @@ function Sistemas() {
                         <h2>Sistemas Web</h2> 
                         <p>Desenvolvemos sistemas web tanto headless como tradicionais, com design responsivo.</p> 
                     </div>   
-               </article>
+               </article> 
                <article className={styles.opciones}>
                     <div className={styles.fotoOp}>
                      {/*Foto*/}
@@ -80,6 +82,14 @@ function Sistemas() {
                </article>
           </div>
          </div> 
+         <div className={styles.sistemasDis}>
+         <section className={styles.tituloComunidad}>
+           <p>Paginas Disponibles</p>
+         </section>
+           <div className={styles.infoPag}>
+            Hola
+           </div>
+         </div>
       </>
     ) 
   }
