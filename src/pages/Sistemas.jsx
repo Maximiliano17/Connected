@@ -4,19 +4,19 @@ import Header from "../components/Header"
 import  styles from "../modules/Sistemas.module.css"
 //Imagenes
 import sistemas from "../assets/sistemas/sistemasFoto.jpeg"
+import appsistema from "../assets/sistemas/sistemaapp.jpeg"
 import app from "../assets/sistemasCard/aplicacion.png"
 import sistema from "../assets/sistemasCard/sistemas.png"
 import escritoro from "../assets/sistemasCard/escritorio.png"
 import tienda from "../assets/sistemasCard/tienda.png"
 import robotica from "../assets/sistemasCard/robot.png"
-import centro from "../assets/sistemas/pag.jpeg"
 function Sistemas() {
 
     return (  
       <> 
       <Header />
        <div className={styles.sistemasContent}> 
-         <img src={sistemas} alt="Foto Sistemas" />
+         <img src={appsistema} alt="Foto Sistemas" />
          <section className={styles.infoSis}>
             <h1>Sistemas</h1>
             <p>

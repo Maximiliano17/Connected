@@ -17,6 +17,7 @@
 
 .sistemasContent img{
     width: 40%;
+    object-fit: cover;
 }
 
 .infoSis{
