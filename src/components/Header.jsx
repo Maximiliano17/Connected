@@ -62,7 +62,7 @@ function Header() {
 
            <nav className={styles.nav_res}> 
             <Link to={`/Home`} className={styles.nav_item_res}>
-                Home 
+                Inicio 
               </Link> 
               <Link to={`/Eventos`} className={styles.nav_item_res}>
                 Eventos 
@@ -93,14 +93,14 @@ function Header() {
           </div>
           <div className={styles.bottonContact}>
             <button>
-              Contact
+              Contacto
             </button>
           </div> 
         </section>
         <section className={styles.navbar}>
          <nav className={styles.nav}> 
           <Link to={`/Home`} className={styles.nav_item}>
-              Home 
+             Inicio 
             </Link>  
             <Link to={`/eventos`} className={styles.nav_item}>
                 Eventos 
@@ -139,7 +139,7 @@ function Header() {
           </button>
          <div className={styles.buttonRes}>
            <button>
-              Contact 
+              Contacto
            </button>
          </div>
         </section>
