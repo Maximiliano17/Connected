@@ -25,9 +25,9 @@ function Sistemas() {
            </section> 
        </div> 
        <div className={styles.sistemasDisponibles}>
-       <section className={styles.tituloComunidad}>
-        <p>New Section</p>
-       </section> 
+        <section className={styles.tituloComunidad}>
+          <p>New Section</p>
+        </section> 
          <div className={styles.nuestrosServicios}>
           {/*Crear card*/} 
                <article className={styles.opciones}>
@@ -82,14 +82,7 @@ function Sistemas() {
                </article>
           </div>
          </div> 
-         <div className={styles.sistemasDis}>
-         <section className={styles.tituloComunidad}>
-           <p>Paginas Disponibles</p>
-         </section>
-           <div className={styles.infoPag}>
-            Hola
-           </div>
-         </div>
+         {/* Hola */}
       </>
     ) 
   }
