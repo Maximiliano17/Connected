@@ -246,7 +246,7 @@
     width: 100%;
     height: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
 }
 
@@ -258,7 +258,133 @@
     align-items: center;
 }
 
+/*Actualizaciones*/ 
+.actualizacion{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloComunidad{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10%;
+}  
+
+.tituloComunidad p{
+    width: 300px;
+    height: fit-content;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background: #002858;
+}
+
+.contentAt{ 
+    width: 100%;
+    height: calc(100vh - 15%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagen{
+    object-fit: cover;
+    border: solid 1px #ccc;
+}
+
+.infoPet{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.infoPet p{
+    width: 90%; 
+    text-align: start;
+    color: rgb(90, 85, 85);
+    line-height: 1.5;
+}
+
+.titulo{
+    font-size: 20px;
+    color: #fd5308;
+}
+
+.infoPet a{
+    color: white;
+    text-decoration: none;
+    background: #002858;
+    width: 20%;
+    height: 2.5rem;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.infoPet a:hover{
+    background: white;
+    color: #002858;
+    transition: 500ms;
+    border: solid 1px #002858;
+}
+
+.imagenCelularRes{
+    display: none;
+}
+
+.imagenRes{
+    display: none;
+}
+ 
+.imagen{
+    object-fit: contain;
+}
+
+
 @media(max-width: 1320px){
+
+    .contentAt{
+        flex-direction: column;
+    }
+    
+    .imagen{
+        display: none;
+    }
+
+    .imagenRes{
+        width: 300px;
+        height: 500px;
+        display: flex; 
+        object-fit: contain;
+    }
+
+    .infoPet{
+        width: 90%;
+        height: fit-content;
+        padding: 20px;
+    }
+
+    .infoPet a{ 
+        width: 120px;
+        height: 2.5rem;
+        background: none;
+        color: #002858;
+    }
+
     .pañolContent{
         flex-direction: column;
     }

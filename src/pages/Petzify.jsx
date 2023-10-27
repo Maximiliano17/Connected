@@ -69,7 +69,7 @@ function Petzify(){
          </div> */}
          <div className={styles.comunidadContent}>
           <section className={styles.tituloComunidad}>
-              <p>New Section</p>
+              <p>Nueva Seccion</p>
           </section>  
             <div className={styles.content}>
                 <img className={styles.imagen} src={section} />

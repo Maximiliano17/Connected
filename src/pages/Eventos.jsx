@@ -4,6 +4,7 @@ import Header from "../components/Header"
 import styles from "../modules/Eventos.module.css"
 //Imagenes
 import eventoBanner from "../assets/banners/eventoJuan.jpeg"
+import premio from "../assets/premios/ciencias.jpeg"
 //Json
 import exjson from "../json/eventos.json"
 import { useState } from "react"
@@ -46,6 +47,19 @@ function Eventos() {
             </p>    
           </section>
         </div>  
+        {/* <section className={styles.premios}>
+          <div className={styles.premio}>
+           <div className={styles.fotoEvento}>
+            <img src={premio} alt="Foto premio" />
+           </div>
+           <div className={styles.premioTitulo}>
+            <h2>Feria de ciencias y tecnologia.</h2>
+            <p>
+             En Connected World, participamos activamente en diversos eventos, con el objetivo de exhibir ante el público lo mejor de nuestros sistemas y aplicaciones. A continuación, destacaremos algunas de nuestras actuaciones más destacadas en ferias, eventos y exposiciones.
+            </p>
+           </div>
+          </div>
+        </section>  */}
         <div className={styles.cardEvents}>
           <section className={styles.nabvar}>
             <button onClick={ () => filtrarEventosPor("all") }>Todo</button>

@@ -68,7 +68,7 @@ function Robotica(){
          <div className={styles.infoBot}>
             <span>Creadores</span>
             <p>
-             Horacio, el robot de competencia, es un impresionante logro creado por Ignacio y Santiago Mamani, estudiantes de la Escuela Secundaria Técnica Número 5. A lo largo de los años, dedicaron tiempo y esfuerzo para perfeccionar su diseño. Finalmente, lograron desarrollar un robot de gran potencia, lo que les permitió alcanzar la victoria en la prestigiosa feria "Hecho en Merlo" y obtener el segundo lugar en la competencia de triatlón. Su trabajo y dedicación son un ejemplo inspirador de ingenio y perseverancia en el campo de la robótica.
+             Horacio, el robot de competencia, es un impresionante logro creado por Ignacio Herrera y Santiago Mamani, estudiantes de la Escuela Secundaria Técnica Número 5. A lo largo de los años, dedicaron tiempo y esfuerzo para perfeccionar su diseño. Finalmente, lograron desarrollar un robot de gran potencia, lo que les permitió alcanzar la victoria en la prestigiosa feria "Hecho en Merlo" y obtener el segundo lugar en la competencia de triatlón. Su trabajo y dedicación son un ejemplo inspirador de ingenio y perseverancia en el campo de la robótica.
             </p>
          </div>
          <div className={styles.sliderCreadores}>

@@ -7,10 +7,13 @@ import pañolLogo from "../assets/sistemas/pañolImg.png"
 import icon1 from "../assets/sistemas/1.png"
 import icon2 from "../assets/sistemas/2.png"
 import icon3 from "../assets/sistemas/3.png"
+import pañolVista from "../assets/sistemas/pañolVista.png"
+import pañolBuscador from "../assets/sistemas/pañolBuscador.png"
 //Escuelas Logos
 import eestn5 from "../assets/logo/escuelaPañollogo.png"
 import eestn1 from "../assets/logo/escuelaPañollogo1.png"
 import eestn3 from "../assets/logo/escuelaPañollogo3.png"
+
 function pañol(){
     return(
         <>
@@ -72,7 +75,7 @@ function pañol(){
             <section className={styles.ejemplo2}>
             <img src={eestn1} alt="Escuela" />
             <div className={styles.info}>
-            <p>E.E.S.T.N-1</p>
+            <p>E.E.S.T.N° 1</p>
               <span>
               “Con Omnicommerce me olvidé de controlar el stock a cada rato y pude potenciar mi negocio a gran escala y con seguridad.”
               </span>
@@ -88,7 +91,25 @@ function pañol(){
               </span>
               <label>Profesor: Carlos Acuña</label>
              </div>
-            </section>
+            </section> 
+         </div>
+         <div className={styles.contentAt}>
+         <section className={styles.actualizacion}>
+            <section className={styles.tituloComunidad}> 
+                  <p>Nueva Seccion</p>
+              </section>  
+              <div className={styles.contentAt}>
+                    <img className={styles.imagen} src={pañolBuscador} />
+                    <img className={styles.imagenRes} src={pañolBuscador} />
+                    <div className={styles.infoPet}>
+                    <span className={styles.titulo}>Buscador de Herramientas.</span>
+                    <p>
+                     Se ah incorporado una característica muy útil: un buscador dentro del stock. Esto permite a los usuarios encontrar herramientas de manera más rápida y sencilla. En lugar de buscar manualmente entre las herramientas disponibles, los usuarios pueden simplemente ingresar palabras clave o descripciones en el buscador.
+                    </p>
+                      <a target="_Blanck" href="https://petzify.vercel.app/">Ver mas</a>
+              </div>
+          </div>
+         </section>
          </div>
         </>
     )

@@ -36,8 +36,10 @@ function Sistemas() {
                      <img alt="Web" src={sistema} />
                     </div>
                     <div className={styles.infoOp}>
-                        <h2>Sistemas Web</h2> 
-                        <p>Desenvolvemos sistemas web tanto headless como tradicionais, com design responsivo.</p> 
+                        <h2>Página Web</h2> 
+                        <p>
+                        Un sitio virtual que permite interactuar con el usuario y demostrar su producto virtualmente.
+                        </p>
                     </div>   
                </article> 
                <article className={styles.opciones}>
@@ -67,7 +69,9 @@ function Sistemas() {
                     </div>
                     <div className={styles.infoOp}>
                         <h2>Software para escritorio</h2> 
-                        <p>Desarrollamos aplicaciones móviles nativas, híbridas y PWA (Progressive Web Apps).</p> 
+                        <p>
+                        Un software enfocado en el manejo virtual de un proceso de trabajo, optimizando el procedimiento.
+                        </p>
                     </div>   
                </article>
                <article className={styles.opciones}>
@@ -77,7 +81,9 @@ function Sistemas() {
                     </div>
                     <div className={styles.infoOp}>
                         <h2>Robótica</h2> 
-                        <p>Desarrollamos aplicaciones móviles nativas, híbridas y PWA (Progressive Web Apps).</p> 
+                        <p>
+                        Desarrollamos hardware reutilizando materiales de los equipos recilcados, dando como resultado robots de competición.
+                        </p>
                     </div>   
                </article>
           </div>

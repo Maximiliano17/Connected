@@ -176,6 +176,56 @@
     object-fit: cover;
 }
 
+/*premios*/
+.premios{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.premio{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+.fotoEvento{
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    border: solid 1px #ccc;
+}
+
+.fotoEvento img{
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.premioTitulo{
+    width: 40%; 
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.premioTitulo h2{
+    color: #fd5308;
+}
+
 /*Responcive Desing*/
 
 @media(max-width: 1320px){
