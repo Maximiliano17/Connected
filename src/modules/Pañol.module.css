@@ -366,15 +366,16 @@
     }
 
     .imagenRes{
-        width: 300px;
-        height: 500px;
-        display: flex; 
+        width: 320px;
+        height: 300px;
+        display: flex;  
+        border: solid 1px #ccc;
         object-fit: contain;
     }
 
     .infoPet{
         width: 90%;
-        height: fit-content;
+        height: fit-content; 
         padding: 20px;
     }
 

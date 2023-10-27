@@ -237,10 +237,11 @@
     }
 
     .imagenRes{
-        width: 300px;
-        height: 500px;
+        width: 320px;
+        height: 300px;
         display: flex; 
         object-fit: contain;
+        border: solid 1px #ccc;
     }
 
     .infoPet{
