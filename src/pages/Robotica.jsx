@@ -39,14 +39,14 @@ function Robotica(){
           <img src={construccion} alt="Logo Pañol" />
           <h2>Construccion</h2>
             <p>
-            Contamos con unos diseños de gran calidad mostrando igual esfuerso en que el robot sea completamente optumo en su funcionamiento, como que lo sea a nivel estietico.
+            En la construcción, priorizamos calidad y durabilidad. Usamos materiales de calidad y técnicas precisas. Robots confiables en diversos entornos, fáciles de mantener. 
            </p>
          </article>
          <article className={styles.cardPet}>
           <img src={competencia} alt="Logo Pañol" />
           <h2>Competencias</h2>
            <p>
-            Contamos con unos diseños de gran calidad mostrando igual esfuerso en que el robot sea completamente optumo en su funcionamiento, como que lo sea a nivel estietico.
+            En robótica, competencias son habilidades clave: programación, sensores y adaptación. Nuestros robots destacan en diversas tareas y aplicaciones.
            </p>
          </article>
         </div>
@@ -63,12 +63,12 @@ function Robotica(){
              Horacio, nuestro excepcional robot, lleva con orgullo en su carcaza los logos representativos de nuestros proyectos más destacados. Ha participado con éxito en diversas competiciones, demostrando su nivel excepcional de habilidad y rendimiento. Horacio es más que una máquina; es un testimonio tangible de los logros sobresalientes que hemos alcanzado en el campo de la robótica.
             </p>
           </div>
-         </section>
+         </section> 
          <section className={styles.contentRobots}>
          <div className={styles.infoBot}>
             <span>Creadores</span>
             <p>
-            Horacio, nuestro excepcional robot, lleva con orgullo en su carcaza los logos representativos de nuestros proyectos más destacados. Ha participado con éxito en diversas competiciones, demostrando su nivel excepcional de habilidad y rendimiento. Horacio es más que una máquina; es un testimonio tangible de los logros sobresalientes que hemos alcanzado en el campo de la robótica.
+             Horacio, el robot de competencia, es un impresionante logro creado por Ignacio y Santiago Mamani, estudiantes de la Escuela Secundaria Técnica Número 5. A lo largo de los años, dedicaron tiempo y esfuerzo para perfeccionar su diseño. Finalmente, lograron desarrollar un robot de gran potencia, lo que les permitió alcanzar la victoria en la prestigiosa feria "Hecho en Merlo" y obtener el segundo lugar en la competencia de triatlón. Su trabajo y dedicación son un ejemplo inspirador de ingenio y perseverancia en el campo de la robótica.
             </p>
          </div>
          <div className={styles.sliderCreadores}>

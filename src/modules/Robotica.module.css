@@ -251,11 +251,11 @@
      } 
      
      .sliderHoracio{
-        width: 100%;
+        display: none;
      }
 
      .sliderCreadores{
-        width: 100%; 
+        display: none;
      }
 
      .infoBot{ 
@@ -288,7 +288,7 @@
     .imagenRobot img{
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
     }
 
     .infoRobot{
@@ -304,4 +304,10 @@
         width: 320px;
     }
 
+}
+
+@media(max-width: 720px){
+    .imagenRobot img{
+        object-fit: cover;
+    }
 }
