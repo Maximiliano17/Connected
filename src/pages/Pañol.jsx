@@ -106,7 +106,7 @@ function pañol(){
                     <p>
                      Se ah incorporado una característica muy útil: un buscador dentro del stock. Esto permite a los usuarios encontrar herramientas de manera más rápida y sencilla. En lugar de buscar manualmente entre las herramientas disponibles, los usuarios pueden simplemente ingresar palabras clave o descripciones en el buscador.
                     </p>
-                      <a target="_Blanck" href="https://petzify.vercel.app/">Ver mas</a>
+                      {/* <a target="_Blanck" href="https://petzify.vercel.app/">Ver mas</a> */}
               </div>
           </div>
          </section>

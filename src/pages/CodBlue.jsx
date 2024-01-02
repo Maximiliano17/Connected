@@ -59,7 +59,7 @@ function CodBlue() {
                 <span className={styles.titulo}>Buscador de Personal.</span>
                 <p>
                 Se ha incorporado una nueva sección llamada "Buscador de Personal" en la que los usuarios podrán buscar al personal del hospital según su especialidad médica. Esto facilitará la localización de profesionales médicos específicos en situaciones de emergencia o cuando se requiera atención especializada. Esta función agrega valor al sistema al mejorar la eficiencia en la gestión del personal médico en el contexto de los protocolos médicos, como el "Código Azul".                </p>
-                  <a target="_Blanck" href="https://petzify.vercel.app/">Ver mas</a>
+                  {/* <a target="_Blanck" href="https://petzify.vercel.app/">Ver mas</a> */}
           </div>
         </div>
          </section> 
