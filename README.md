@@ -15,9 +15,12 @@ Connected World es una empresa especializada en el desarrollo de software con un
 
 ## Tecnologías Utilizadas 💻
 
-Nuestro equipo está altamente capacitado en tecnologías de vanguardia para ofrecer soluciones de software de calidad:
+Nuestra página principal se ha programado principalmente con las siguientes tecnologías:
 
-- [Incluir aquí las tecnologías específicas que utilizan]
+- **React**
+- **Vite**
+- **HTML**
+- **CSS**
 
 ## Uso y Contribuciones 🚀
 
